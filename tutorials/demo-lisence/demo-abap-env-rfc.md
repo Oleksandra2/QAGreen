@@ -1,5 +1,5 @@
 ---
-title: Tutorial_4 
+title: Tutorial_Call a remote function module 
 description: Call a remote function module located in an on-premise system, such as a SAP S/4HANA System, from the ABAP Environment
 auto_validation: true
 time: 60
