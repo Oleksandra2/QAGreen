@@ -3,7 +3,7 @@ title: Tutorial_3
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: tutorial:product/sapHana 
 tags: [  tutorial>beginner, topic>abap-development, products>sap-cloud-platform]
-time: 92
+time: 68
 
 ---
 ## Prerequisites  
