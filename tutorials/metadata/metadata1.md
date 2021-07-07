@@ -6,7 +6,7 @@ primary_tag: tutorial:product/sapHana
 tags: [ tutorial>beginner, topic>cloud, products>sap-cloud-platform-portal ]
 author_name: Lindsay Bert
 author_profile: https://github.com/LindsayBert
-time: 10
+time: 7
 ---
 
 ## Details
