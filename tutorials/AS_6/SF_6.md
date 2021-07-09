@@ -20,7 +20,7 @@ author_profile: https://github.com/adadouche
 TEST2
 
 ### Time to Complete
-**112 Min**
+**33 Min**
 
 [ACCORDION-BEGIN [](STEP)]
 ```CSS
