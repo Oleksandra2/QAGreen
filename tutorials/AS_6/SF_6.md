@@ -1,5 +1,5 @@
 ---
-title: Tutorial_1Updated
+title: Tutorial_1UpdatedSecond
 description: Test tutorial lorem ipsum dolor sit amet 
 tags: [tutorial:product/sapHana, tutorial:experience/beginner]
 primary_tag: tutorial:product/sapHana
