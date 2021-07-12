@@ -1,6 +1,6 @@
 ---
-title: Tutorial_1111111
-description: Test tutorial lorem ipsum dolor sit amet Test tutorial lorem ipsum dolor sit amet
+title: Tutorial_1Updated
+description: Test tutorial lorem ipsum dolor sit amet 
 tags: [tutorial:product/sapHana, tutorial:experience/beginner]
 primary_tag: tutorial:product/sapHana
 author_name: AEM
