@@ -1,5 +1,5 @@
 ---
-title: Tutorial_Add an existing Web Dynpro ABAP
+title: Tutorial_Add an existing Web Dynpro ABAP Web Dynpro ABAP Web Dynpro ABAP
 description: Add an existing Web Dynpro ABAP backend app to your freestyle Portal site.
 auto_validation: true
 primary_tag: tutorial:product/sapHana
