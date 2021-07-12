@@ -1,6 +1,6 @@
 ---
-title: Tutorial_1
-description: Test tutorial lorem ipsum dolor sit amet
+title: Tutorial_1111111
+description: Test tutorial lorem ipsum dolor sit amet Test tutorial lorem ipsum dolor sit amet
 tags: [tutorial:product/sapHana, tutorial:experience/beginner]
 primary_tag: tutorial:product/sapHana
 author_name: AEM
@@ -17,7 +17,7 @@ author_profile: https://github.com/adadouche
   
 ## Details
 ### You will learn  
-TEST2
+TEST222
 
 ### Time to Complete
 **33 Min**
@@ -87,7 +87,7 @@ Restart-Computer -Force -ComputerName SERVER1
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
+| col 3 is      | some wordy ttt  | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
