@@ -1,7 +1,7 @@
 ---
 title: Tutorial_1UpdatedSecond
 description: Test tutorial lorem ipsum dolor sit amet 
-tags: [tutorial:product/sapHana, tutorial:experience/beginner]
+tags: [tutorial:product/sapHana, tutorial:experience/beginner, tutorial>community]
 primary_tag: tutorial:product/sapHana
 author_name: AEM
 author_profile: https://github.com/adadouche
