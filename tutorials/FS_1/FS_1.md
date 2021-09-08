@@ -1,8 +1,8 @@
 ---
 title: Tutorial_3 QA Green
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
-primary_tag: tutorial>sapHana 
-tags: [  tutorial>beginner, topic>abap-development, products>sap-cloud-platform]
+primary_tag: tutorial>mobile 
+tags: [  tutorial>beginner, topic>ABAP Development]
 time: 55
 
 ---
