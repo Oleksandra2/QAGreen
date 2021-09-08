@@ -1,7 +1,7 @@
 ---
-title: Tutorial_2 QA Green
+title: Tutorial_2 QA Green Community
 description: ADMINTOOL final
-tags: [tutorial>advanced, topic>ABAP Development, tutorial>community]
+tags: [tutorial>advanced, topic>sql, tutorial>community]
 primary_tag: tutorial>mobile
 time: 33 min
 ---
