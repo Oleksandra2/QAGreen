@@ -1,7 +1,7 @@
 ---
 title: Tutorial_2 QA Green
 description: ADMINTOOL final
-tags: [tutorial>advanced, tutorial>sapHana, tutorial>community]
+tags: [tutorial>advanced, topic>ABAP Development, tutorial>community]
 primary_tag: tutorial>mobile
 time: 33 min
 ---
