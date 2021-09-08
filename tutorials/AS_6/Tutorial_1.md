@@ -1,5 +1,5 @@
 ---
-title: Tutorial_1 QA Green
+title: Tutorial_1 QA Green Community
 description: Test tutorial lorem ipsum dolor sit amet 
 tags: [topic>ABAP Development, tutorial>beginner, tutorial>community]
 primary_tag: tutorial>mobile
