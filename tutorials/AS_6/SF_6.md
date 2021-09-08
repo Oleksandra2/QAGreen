@@ -1,8 +1,8 @@
 ---
-title: Tutorial_1UpdatedSecond
+title: Tutorial_1 QA Green
 description: Test tutorial lorem ipsum dolor sit amet 
-tags: [tutorial:product/sapHana, tutorial:experience/beginner, tutorial>community]
-primary_tag: tutorial:product/sapHana
+tags: [tutorial>sapHana, tutorial>beginner, tutorial>community]
+primary_tag: tutorial>sapHana
 author_name: AEM
 author_profile: https://github.com/adadouche
 
