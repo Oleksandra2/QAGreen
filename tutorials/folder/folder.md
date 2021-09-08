@@ -1,8 +1,8 @@
 ---
-title: Daria_TutorialTopaz2 1803
+title: Enable and open the HANA Cloud Platform Web IDE QA Green
 description: 2 new types of rules 2007_1
-tags: [tutorial:product/sapHana, tutorial:experience/beginner]
-primary_tag: tutorial:product/sapHana
+tags: [tutorial>sapHana, tutorial>beginner]
+primary_tag: tutorial>sapHana
 author_name: AEM
 author_profile: https://github.com/adadouche
 ---
