@@ -1,10 +1,12 @@
----
-title: Tutorial_2 QA Green Community
-description: ADMINTOOL final
+--- 
 tags: [tutorial>advanced, topic>sql, tutorial>community]
 primary_tag: tutorial>mobile
 time: 33 min
 ---
+
+# Tutorial_2 Title from the tag
+
+<!-- description --> If you don't have the Web IDE open, follow these steps: Enable and open the HANA Cloud Platform Web IDE
 
 ## Prerequisites  
  - **Proficiency:** Beginner 
@@ -13,43 +15,25 @@ time: 33 min
 
 ## Next Steps
  - TEST
-  
 
-## Details
-### You will learn  
+## You will learn  
 
-[ACCORDION-BEGIN [STEP 1](regex1)] 
-[VALIDATE_1] 
-[ACCORDION-END]
+### STEP 1 regex1
+This tutorial is part of a series.  The previous tutorial is [Set up the Northwind Destination]
 
-[ACCORDION-BEGIN [STEP 2](regex)] 
-[VALIDATE_2] 
-[ACCORDION-END]
+<!-- border --> ![My image](mypicture.png)
 
-[ACCORDION-BEGIN [STEP 5](rexact-match-precise)] 
-[VALIDATE_5] 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP 6](regex-begins-with)] 
-[VALIDATE_6] 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP7](regex-with-id-exact-match)] 
-[VALIDATE_7] 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP10](regex-begins-with)] 
-[VALIDATE_10] 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP 8](single-choice rule)] 
-[VALIDATE_8] 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP 9](multiple-choice rule)] 
-[VALIDATE_9] 
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [STEP 10](multiple-choice rule)] 
 [DONE]
-[ACCORDION-END]
+
+### STEP 2 
+This tutorial is part of a series.  The previous tutorial is [Set up the Northwind Destination]
+
+![My image](mypicture.png)
+
+[DONE]
+
+
+### STEP 3 rexact-match-precise
+This tutorial is part of a series.  The previous tutorial is [Set up the Northwind Destination]
+
+[DONE]
