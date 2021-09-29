@@ -1,11 +1,11 @@
 ---
-title: Tutorial_1 QA Green Communityyyy
+title: Tutorial_1 QA Green Marckdown changes
 description: Test tutorial lorem ipsum dolor sit amet 
 tags: [topic>ABAP Development, tutorial>beginner, tutorial>community]
 primary_tag: tutorial>mobile
 author_name: AEM
 author_profile: https://github.com/adadouche
-
+parser: v2
 
 ---
 
@@ -14,15 +14,15 @@ author_profile: https://github.com/adadouche
  - **Web IDE** If yоеou doh n't have the Web IDE open, follow these steps: [Enable and open the HANA Cloud Platform Web IDE](https://go.sap.com/developer/tutorials/sapui5-webide-open-webide.htmlerjhgir
  - **Tutorials:** This tutorial is part of a series.  The previous tutorial is [Set up the Northwind Destination](https://go.sap.com/developer/tutorials/hcp-create-destination.html)
 
+---
   
-## Details
-### You will learn  
+## You will learn  
 TEST222
 
 ### Time to Complete
 **33 Min**
 
-[ACCORDION-BEGIN [](STEP)]
+### STEP1
 ```CSS
 h1 { color: red; font-size: 3em; text-decoration: underline;
 }
@@ -56,9 +56,9 @@ Restart-Computer -Force -ComputerName SERVER1
 | zebra stripes | are neat        |    $1 |
 
 [DONE]
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [](STEP)]
+
+### STEP2
 ```CSS
 h1 { color: red; font-size: 3em; text-decoration: underline;
 }
@@ -93,4 +93,3 @@ Restart-Computer -Force -ComputerName SERVER1
 
 
 [DONE]
-[ACCORDION-END]
