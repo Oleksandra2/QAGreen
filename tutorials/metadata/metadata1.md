@@ -2,7 +2,7 @@
 title: Web Dynpro ABAP QA Green
 description: Add an existing Web Dynpro ABAP backend app to your freestyle Portal site.
 auto_validation: true
-primary_tag: tutorial>sapHana
+primary_tag: tutorial>mobile
 tags: [tutorial>advanced, topic>sql, tutorial>community]
 author_name: Lindsay Bert
 author_profile: https://github.com/LindsayBert
