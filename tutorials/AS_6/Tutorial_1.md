@@ -1,5 +1,5 @@
 ---
-title: Tutorial_1 QA Green Marckdown changes
+title: Tutorial_1 QA Green Markdown changes
 description: Test tutorial lorem ipsum dolor sit amet 
 tags: [topic>ABAP Development, tutorial>beginner, tutorial>community]
 primary_tag: tutorial>mobile
