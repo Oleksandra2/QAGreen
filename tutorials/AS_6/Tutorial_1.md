@@ -5,8 +5,8 @@ primary_tag: tutorial>mobile
 parser: v2
 
 ---
-# Tutorial_1 QA Green Markdown changes2
-<!-- description -->  Use SAP HANA federation capabilities to query data from other SAP HANA and SAP HANA Data Lake databases using SAP
+#            Tutorial_1 QA Green Markdown changes2
+<!-- description -->                       Use SAP HANA federation capabilities to query data from other SAP HANA and SAP HANA Data Lake databases using SAP
 
 ## Prerequisites
  - **Web IDE** If yоеou doh n't have the Web IDE open, follow these steps: [Enable and open the HANA Cloud Platform Web IDE](https://go.sap.com/developer/tutorials/sapui5-webide-open-webide.htmlerjhgir
@@ -57,14 +57,16 @@ Restart-Computer -Force -ComputerName SERVER1
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
-<!-- border --> ![My image](mypicture.png)
+<!-- border -->              ![My image](mypicture.png)
 
-![My image](mypicture.png)
+
+    ![My image](mypicture.png)
 
 ---
 
 [DONE]
 
+---
 
 ### STEP2
 ```CSS
