@@ -1,8 +1,8 @@
 ---
 title: Enable and open the HANA Cloud Platform Web IDE QA Green
 description: 2 new types of rules 2007_1
-tags: [tutorial>sapHana, tutorial>beginner]
-primary_tag: tutorial>sapHana
+tags: [tutorial>beginner, topic>sql]
+primary_tag: tutorial>mobile
 author_name: AEM
 author_profile: https://github.com/adadouche
 ---
