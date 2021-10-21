@@ -8,7 +8,7 @@ primary_tag: products>sap-mobile-cards
 ---
 
 ## Prerequisites
--	A full entitlement to [SAP Cloud Platform, ABAP environment](https://cloudplatform.sap.com/capabilities/product-info.SAP-Cloud-Platform-ABAP-environment.4d0a6f95-42aa-4157-9932-d6014a68d825.html) (not a trial account)
+-	A full entitlement A full entitlement to [SAP Cloud Platform, ABAP environment](https://cloudplatform.sap.com/capabilities/product-info.SAP-Cloud-Platform-ABAP-environment.4d0a6f95-42aa-4157-9932-d6014a68d825.html) (not a trial account)
 - A full SAP Cloud Platform Neo subaccount. **IMPORTANT**: Your SAP Cloud Platform, Cloud Foundry and SAP Cloud Platform, Neo accounts must be in the same geographical region.
 -	An ABAP on-premise system, such as:
     - [SAP S/4HANA 1809 fully activated appliance](https://blogs.sap.com/2018/12/12/sap-s4hana-fully-activated-appliance-create-your-sap-s4hana-1809-system-in-a-fraction-of-the-usual-setup-time/) or:
