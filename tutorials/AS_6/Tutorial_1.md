@@ -1,6 +1,6 @@
 ---
 auto_validation: true
-tags: [topic>ABAP Development, tutorial>beginner, tutorial>community, ]
+tags: [topic>ABAP Development, tutorial>beginner, tutorial>community]
 primary_tag: products>sap-hana-cloud
 parser: v2
 
