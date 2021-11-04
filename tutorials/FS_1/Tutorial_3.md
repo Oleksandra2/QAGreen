@@ -4,6 +4,7 @@ description: Links, tips, tricks and more for getting started with the SAP HANA,
 primary_tag: tutorial>mobile 
 tags: [ tutorial>advanced, topic>ABAP Development]
 time: 55
+keywords: sap, service, HANA, DEVELOPERSTEST, SAP Business Scenario
 
 ---
 ## Prerequisites  
