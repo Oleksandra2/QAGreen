@@ -1,5 +1,5 @@
 ---
-title: Tutorial_3 QA Green
+title: Tutorial_3 QA Green Updated
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: tutorial>mobile 
 tags: [ tutorial>advanced, topic>ABAP Development, tutorial>community]
