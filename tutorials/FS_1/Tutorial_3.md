@@ -2,9 +2,9 @@
 title: Tutorial_3 QA Green
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: tutorial>mobile 
-tags: [ tutorial>advanced, topic>ABAP Development]
-time: 55
-keywords: sap, service, HANA, DEVELOPERSTEST, SAP Business Scenario
+tags: [ tutorial>advanced, topic>ABAP Development, tutorial>community]
+time: 25
+keywords: Key-word, SAP_Business Scenario, Activate a Business Template
 
 ---
 ## Prerequisites  
