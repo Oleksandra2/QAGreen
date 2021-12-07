@@ -4,7 +4,7 @@ description: Create an OData service consumption model in an SAP Business Techno
 auto_validation: true
 time: 45
 tags: [ tutorial>intermediate, products>sap-btp--abap-environment, software-product>sap-business-technology-platform, software-product>business-rules, tutorial>license]
-primary_tag: topic>abap-connectivity
+primary_tag: software-product>SAP-Gateway
 author_name: Julie Plummer
 author_profile: https://github.com/julieplummer20
 ---
