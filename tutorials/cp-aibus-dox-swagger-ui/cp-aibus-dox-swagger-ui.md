@@ -1,5 +1,5 @@
 ---
-title: Test Use Machine Learning to Extract Information from Documents with Swagger UI
+title: Test QA Green Use Machine Learning to Extract Information from Documents with Swagger UI
 description: Get machine learning model predictions for the documents you upload to Document Information Extraction.
 auto_validation: true
 time: 15
