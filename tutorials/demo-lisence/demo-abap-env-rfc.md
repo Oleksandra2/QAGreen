@@ -4,7 +4,7 @@ description: Call a remote function module located in an on-premise system
 auto_validation: true
 time: 45
 tags: [tutorial>how-to, tutorial>beginner, tutorial>intermediate, programming tool>API]
-primary_tag: topic>Android
+primary_tag: topic>Mobile
 ---
 
 ## Prerequisites
