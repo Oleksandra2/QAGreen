@@ -5,7 +5,7 @@ auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>Analytics, topic>abap-development]
 primary_tag: topic>Machine-Learning
-keywords: cloud business rules HTML5 DEVELOP
+keywords: cloud business rules HTML5 DEVELOPERS
 ---
 
 ## Prerequisites
