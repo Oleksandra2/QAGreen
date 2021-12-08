@@ -3,8 +3,8 @@ title: Test QA Green Create ABAPDoc Comments in Your Class in ABAP Environment
 description: Learn how to maintain ABAPDoc documentation for your class in SAP Cloud Platform, ABAP Environment so your comments appear in the Outline view.
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>Analytics, topic>abap-development]
-primary_tag: topic>Machine-Learning
+tags: [ tutorial>beginner, software-product>Analytics, topic>abap-development, software-product>SAP Mobile Services]
+primary_tag: software-product>SAP Fiori Cloud
 keywords: keyword1, keyword2, keyword3/keyword4
 ---
 
