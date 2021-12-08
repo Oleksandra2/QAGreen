@@ -7,6 +7,7 @@ tags: [ tutorial>intermediate, products>sap-btp--abap-environment, software-prod
 primary_tag: software-product>SAP-Gateway
 author_name: Julie Plummer
 author_profile: https://github.com/julieplummer20
+keywords: SAP cloud database HTML5
 ---
 
 ## Prerequisites  
