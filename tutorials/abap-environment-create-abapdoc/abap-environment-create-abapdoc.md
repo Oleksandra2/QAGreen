@@ -33,9 +33,52 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
 
 !![Image depicting step-1-open-class](step-1-open-class.png)
 
+[Click to download xls] (10n.xls)
+
+[Click to download mpeg] (11n.mpeg)
+
+[Click to download zip] (12n.zip)
+
+[Click to download doc] (1n.doc)
+
+[Click to download docx] (2n.docx)
+
+[Click to download pdf] (3n.pdf)
+
+[Click to download txt] (4n.txt)
+
+[Click to download mp4] (5n.mp4)
+
+[Click to download csv] (6n.csv)
+
+[Click to download sql] (JOINSn.sql)
+
+[Click to download mp3] (Jinglebellsringtonen.mp3)
+
+[Click to download xlsx] (Book1.xlsx)
+
+[Click to download mp3 more than 1mb] (more1mb.mp3)
+
+
+
 [DONE]
 [ACCORDION-END]
 
+[Click to download jpg] (8.jpg)
+
+[Click to download svg] (9.svg)
+
+[Click to download xml] (template.xml)
+
+[Click to download gif] (CWF.gif)
+
+[Click to download png] (access40.png)
+
+[Click to download json] (resp.json)
+
+[Click to download ico] (monitoriconn.ico)
+
+[Click to download mp3 crashed] (gfgg.mp3)
 
 [ACCORDION-BEGIN [Step 2: ](Create ABAPDoc comment)]
 1. Immediately before the class definition, add an ABAPDoc comment to the class by entering **`"!`** and choosing **Auto-complete ( `Ctrl+Space` )**.
