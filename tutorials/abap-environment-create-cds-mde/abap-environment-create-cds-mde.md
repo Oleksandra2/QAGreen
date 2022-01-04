@@ -5,6 +5,7 @@ auto_validation: true
 time: 45
 tags: [ tutorial>beginner, topic>abap-development]
 primary_tag: software-product>analytic-applications
+keywords: developers, oupppp
 ---
 
 ## Prerequisites
