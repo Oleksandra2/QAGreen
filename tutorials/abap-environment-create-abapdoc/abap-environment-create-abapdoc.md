@@ -5,7 +5,7 @@ auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>Analytics, topic>abap-development, software-product>SAP Mobile Services]
 primary_tag: software-product>SAP Fiori Cloud
-keywords: keyword1, keyword2, keyword3/keyword4
+keywords: developers, TESTT!
 ---
 
 ## Prerequisites
