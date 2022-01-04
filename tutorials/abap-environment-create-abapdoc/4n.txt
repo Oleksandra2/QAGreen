@@ -1,0 +1,19 @@
+Access a Classic Schema from SAP Web IDE Full-Stack
+
+Access data in a plain or replicated schema from an HDI container.
+You will learn
+How to create a plain schema, with a table and user to simulate a replicated schema
+How to create a user-provided service to access a database in SAP HANA service for SAP BTP
+How to grant permissions to the technical users in your HDI container to access the database
+Prerequisites
+This tutorial is designed for SAP HANA service for SAP Business Technology Platform. Consider newer tutorials designed for SAP HANA Cloud.
+You have access to the database and SAP BTP cockpit.
+You have created a multi-target application with a database module as explained in this tutorial.
+Optionally, you have created a remote source as explained in this tutorial.
+This tutorial cannot be completed with a trial account.
+
+This tutorial is meant to be an example of cross-container access. Simple data models and loading mechanisms were chosen to simulate a schema replicated using tools such as SAP Landscape Transformation or an ABAP schema.
+
+For more information on this process and additional syntax options, refer to the official documentation on SAP Help.
+
+If you are looking for the steps for an on-premise SAP HANA instance with XS Advanced, such as SAP HANA, express edition, refer to this tutorial.
