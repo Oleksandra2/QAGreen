@@ -57,9 +57,6 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
 
 [Click to download xlsx] (Book1.xlsx)
 
-[Click to download mp3 more than 1mb] (more1mb.mp3)
-
-
 
 [DONE]
 [ACCORDION-END]
