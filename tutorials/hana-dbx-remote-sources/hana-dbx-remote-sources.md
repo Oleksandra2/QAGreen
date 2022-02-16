@@ -66,10 +66,7 @@ For additional details on SAP HANA Smart Data Access (SDA) and SAP HANA Smart Da
     SELECT * FROM HOTEL.TOURIST_REVIEWS;
     ```
 
-   <!-- border; size:300px --> ![tourist reviews in HANA Cloud](tourist_reviews_in_HC.png)
-
-<!-- border --> 
-Picture: ![My image](mypicture.png)
+    <!-- border; size:300px --> ![tourist reviews in HANA Cloud](tourist_reviews_in_HC.png)
 
 ---
 
@@ -83,7 +80,7 @@ Picture: ![My image](mypicture.png)
 
      Right-click on **Remote Sources** and select **Add Remote Source**.  
 
-    <!-- border; size:600px --> ![Add remote source](add_remote_source.png)
+    <!-- border; size:260px --> ![Add remote source](add_remote_source.png)
 
     Alternatively, in a SQL console, enter the SQL statement below after adjusting the `ServerNode`.  
 
@@ -106,7 +103,7 @@ Picture: ![My image](mypicture.png)
 
 2. After executing the create remote source SQL statement, the result can be seen in the **Remote Sources** folder, as shown below.  You may need to press the refresh button.
 
-    ![remote sources](remote_source.png)
+   <!-- border; size:600px --> ![remote sources](remote_source.png)
 
     Additional details can be found at [CREATE REMOTE SOURCE Statement](https://help.sap.com/viewer/c1d3f60099654ecfb3fe36ac93c121bb/cloud/en-US/20d48343751910149985a2c925e12190.html).
 
