@@ -8,7 +8,7 @@ Open left rail for additional features
 parser: v2
 keywords: cloud, service, SQL, DEVELOPERSTEST, SAP Business Scenario, cap analytics
 ---
-#     AAA    QA Green A TEST alt label tag
+#    QA Green parser v2 test
 <!-- description --> Use 
 
 ## Prerequisites
@@ -66,7 +66,7 @@ For additional details on SAP HANA Smart Data Access (SDA) and SAP HANA Smart Da
     SELECT * FROM HOTEL.TOURIST_REVIEWS;
     ```
 
-   <!-- border --> ![tourist reviews in HANA Cloud](tourist_reviews_in_HC.png)
+   <!-- border; size:300px --> ![tourist reviews in HANA Cloud](tourist_reviews_in_HC.png)
 
 <!-- border --> 
 Picture: ![My image](mypicture.png)
@@ -83,7 +83,7 @@ Picture: ![My image](mypicture.png)
 
      Right-click on **Remote Sources** and select **Add Remote Source**.  
 
-     ![Add remote source](add_remote_source.png)
+    <!-- border; size:600px --> ![Add remote source](add_remote_source.png)
 
     Alternatively, in a SQL console, enter the SQL statement below after adjusting the `ServerNode`.  
 
