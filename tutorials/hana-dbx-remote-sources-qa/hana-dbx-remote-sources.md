@@ -1,6 +1,6 @@
 ---
 auto_validation: true
-time: 25
+time: 45
 tags: [ tutorial>beginner, products>sap-hana, topic>ABAP Development, topic>big-data, topic>sql, tutorial>community, tutorial>license, products>SAPUI5]
 primary_tag: products>SAP-Business-Technology-Platform
 Open left rail for additional features
@@ -8,7 +8,7 @@ Open left rail for additional features
 parser: v2
 keywords: cloud, service, SQL, DEVELOPERSTEST, SAP Business Scenario
 ---
-#         Accsess Tutorial for QA Green
+#         Accsess Tutorial for QA Green upd
 <!-- description --> Use 
 
 ## Prerequisites
