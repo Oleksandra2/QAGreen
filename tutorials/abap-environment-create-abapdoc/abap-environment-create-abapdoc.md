@@ -4,7 +4,7 @@ description: Learn how to maintain ABAPDoc documentation for your class in SAP C
 auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>SAP-Fiori-Cloud, topic>abap-development, software-product>SAP-Mobile-Services, topic>Artificial-Intelligence]
-primary_tag: software-product>Analytics
+primary_tag: software-product>Business-Entity-Recognition
 keywords: developers, TESTT!
 ---
 
