@@ -8,7 +8,7 @@ Open left rail for additional features
 parser: v2
 keywords: cloud, service, SQL, DEVELOPERSTEST, SAP Business Scenario
 ---
-#         Accsess Tutorial for QA Green 2
+#         Accsess Tutorial for QA Green upd
 <!-- description --> Use 
 
 ## Prerequisites
