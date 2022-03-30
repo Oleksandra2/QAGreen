@@ -68,4 +68,4 @@ Virtual tables point to data stored in another database.  Federated queries join
 
 ### long question
 
-### one another special symbol in the question)] 
+### one another special symbol in the question 
