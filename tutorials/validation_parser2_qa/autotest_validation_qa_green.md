@@ -4,7 +4,7 @@ description: autotests description
 primary_tag: topic>mobile
 tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner]
 qrcode: true
-time: 60
+time: 20
 author_profile: https://github.com/ksAutotests
 author_name: ksAutotests
 creator_name: Oleksandra K.
