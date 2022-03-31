@@ -3,7 +3,7 @@ auto_validation: true
 title: Test QA Green Create Your First ABAP Console Application
 description: Create asdasd an ABAP package and an ABasdAP class in the SAP BTP, ABAP Environment with the ABAP Development Tools (ADT) in Eclipse.
 primary_tag: software-product>business-rules
-tags: [  tutorial>beginner, topic>abap-development, software-product>SAP-Fiori-Client, software-product>analytic-applications, software-product-function>sap-hana-cloud\,-sap-hana-database]
+tags: [  tutorial>beginner, topic>abap-development, software-product>SAP-Fiori-Client, software-product>analytic-applications, software-product-function>sap-hana-cloud\,-sap-hana-database, tutorial>license]
 time: 5
 author_name: Merve Temel
 author_profile: https://github.com/mervey45
