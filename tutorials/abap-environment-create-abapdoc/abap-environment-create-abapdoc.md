@@ -110,7 +110,9 @@ The comments should now appear in the Outline View:
 !![step2b-shorttext-synch-class](step2b-shorttext-synch-class.png)
 
 !![step3a-add-sorted-list](step3a-add-sorted-list.png)
-### step3a-add-sorted-list.png
+
+### step3a-add-sorted-list
+
 
 [DONE]
 [ACCORDION-END]
