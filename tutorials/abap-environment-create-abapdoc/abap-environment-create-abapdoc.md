@@ -100,6 +100,8 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
     "!<p class="shorttext synchronized">Table type of Flights from HANA DB</p>
     "! <p class="shorttext synchronized"> Method reads flights from HANA DB using AMDP</p>
     ```
+Jump to [step3a-add-sorted-list](#step3a-add-sorted-list.png)
+### step3a-add-sorted-list.png
 
 5. Save and activate your class.
 
@@ -116,7 +118,9 @@ The comments should now appear in the Outline View:
 
 2. Again, choose **Auto-complete ( `Ctrl+Space` )**. Then choose **Sorted list**.
 
+
     !![step3a-add-sorted-list](step3a-add-sorted-list.png)
+
 
 3. Add the following two statements, so that your code looks like this:
 
