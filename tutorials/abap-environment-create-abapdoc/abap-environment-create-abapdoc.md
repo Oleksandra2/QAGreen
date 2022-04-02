@@ -101,7 +101,6 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
     "! <p class="shorttext synchronized"> Method reads flights from HANA DB using AMDP</p>
     ```
 Jump to [step3a-add-sorted-list](#step3a-add-sorted-list.png)
-### step3a-add-sorted-list.png
 
 5. Save and activate your class.
 
