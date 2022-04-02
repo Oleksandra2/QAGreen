@@ -118,7 +118,7 @@ The comments should now appear in the Outline View:
 
 2. Again, choose **Auto-complete ( `Ctrl+Space` )**. Then choose **Sorted list**.
 
-
+### step3a-add-sorted-list.png
     !![step3a-add-sorted-list](step3a-add-sorted-list.png)
 
 
