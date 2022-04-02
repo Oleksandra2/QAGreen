@@ -1,5 +1,5 @@
 ---
-title: AAA Test QA Green Create ABAPDoc Comments in Your Class in ABAP Environment upd
+title: AAA Test QA Green Create ABAPDoc Comments 
 description: Learn how to maintain ABAPDoc documentation for your class in SAP Cloud Platform, ABAP Environment so your comments appear in the Outline view.
 auto_validation: true
 time: 25
@@ -97,7 +97,7 @@ Jump to [big image](#big_image)
     "!<p class="shorttext synchronized">Class tests AMDP: </p>
     ```
 
-4. Add the following comments to the table type **`ty_result_line`** and to the method **`GET_FLIGHTS`** respectively:
+4. Add the following comments to the table type **`ty_result_line`** and to the method **`GET_FLIGHTS`** respectively: rrrrrr
 
     ```
     "!<p class="shorttext synchronized">Table type of Flights from HANA DB</p>
