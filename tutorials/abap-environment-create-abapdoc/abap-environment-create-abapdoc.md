@@ -80,7 +80,7 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
 [ACCORDION-BEGIN [Step 2: ](Create ABAPDoc comment)]
 1. Immediately before the class definition, add an ABAPDoc comment to the class by entering **`"!`** and choosing **Auto-complete ( `Ctrl+Space` )**.
 
-Jump to [step3a-add-sorted-list](#step3a-add-sorted-list.png)
+Jump to [big image](#big_image)
 
 2. From the dropdown list, choose **Paragraph**, then add the following comment:
 
@@ -111,8 +111,7 @@ The comments should now appear in the Outline View:
 
 !![step3a-add-sorted-list](step3a-add-sorted-list.png)
 
-### step3a-add-sorted-list
-
+### Big Image
 
 [DONE]
 [ACCORDION-END]
