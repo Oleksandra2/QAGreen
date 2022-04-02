@@ -80,6 +80,8 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
 [ACCORDION-BEGIN [Step 2: ](Create ABAPDoc comment)]
 1. Immediately before the class definition, add an ABAPDoc comment to the class by entering **`"!`** and choosing **Auto-complete ( `Ctrl+Space` )**.
 
+Jump to [step3a-add-sorted-list](#step3a-add-sorted-list.png)
+
 2. From the dropdown list, choose **Paragraph**, then add the following comment:
 
     **`"!<p>Class tests AMDP</p>`**
@@ -100,13 +102,15 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
     "!<p class="shorttext synchronized">Table type of Flights from HANA DB</p>
     "! <p class="shorttext synchronized"> Method reads flights from HANA DB using AMDP</p>
     ```
-Jump to [step3a-add-sorted-list](#step3a-add-sorted-list.png)
 
 5. Save and activate your class.
 
 The comments should now appear in the Outline View:
 
 !![step2b-shorttext-synch-class](step2b-shorttext-synch-class.png)
+
+!![step3a-add-sorted-list](step3a-add-sorted-list.png)
+### step3a-add-sorted-list.png
 
 [DONE]
 [ACCORDION-END]
@@ -117,8 +121,7 @@ The comments should now appear in the Outline View:
 
 2. Again, choose **Auto-complete ( `Ctrl+Space` )**. Then choose **Sorted list**.
 
-### step3a-add-sorted-list.png
-    !![step3a-add-sorted-list](step3a-add-sorted-list.png)
+
 
 
 3. Add the following two statements, so that your code looks like this:
