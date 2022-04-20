@@ -2,7 +2,7 @@
 title: 
 description: autotests description
 primary_tag: topic>mobilee
-tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner]
+tags: [topic>User-Experience, tutorial>community, software-product>Analytics]
 qrcode: true
 time: 20
 author_profile: https://github.com/ksAutotests
