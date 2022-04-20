@@ -1,10 +1,10 @@
 ---
-title:
+title: Test QA Green Use Machine Learning to Extract Information from Documents with Swagger UI
 description: Get machine learning model predictions for the documents you upload to Document Information Extraction.
 auto_validation: true
 time: 15
 tags: [tutorial>beginner, software-product>Technology-Platform, software-product>SAP-Fiori-Cloud]
-primary_tag: software-product>SAP-Analyticsss
+primary_tag: software-product>SAP-Analytics
 ---
 
 ## Details
