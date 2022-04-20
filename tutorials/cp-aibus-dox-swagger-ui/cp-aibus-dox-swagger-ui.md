@@ -1,4 +1,11 @@
-
+---
+title: Test QA Green Use Machine Learning to Extract Information from Documents with Swagger UI
+description: Get machine learning model predictions for the documents you upload to Document Information Extraction.
+auto_validation: true
+time: 15
+tags: [tutorial>beginner, software-product>Technology-Platform, software-product>SAP-Fiori-Cloud]
+primary_tag: software-product>SAP-Analytics
+---
 
 ## Details
 ### You will learn
@@ -6,7 +13,7 @@
   - How to access and use Swagger UI (User Interface)
   - How to extract information from files with Document Information Extraction
 
-The core functionality of Document Information Extraction is to automatically extract structured information from documents using machine learning. When you finish this tutorial, you will get field value predictions for the documents you upload to Document Information Extraction.
+# The core functionality of Document Information Extraction is to automatically extract structured information from documents using machine learning. When you finish this tutorial, you will get field value predictions for the documents you upload to Document Information Extraction.
 
 ---
 
