@@ -1,5 +1,5 @@
 ---
-title:
+
 description: autotests description
 primary_tag: topic>mobile
 tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner]
