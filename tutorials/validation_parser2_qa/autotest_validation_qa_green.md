@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 description: autotests description
 primary_tag: topic>mobile
 tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner]
@@ -13,7 +13,7 @@ parser: v2
 keywords: validation, parser v2
 ---
 
-# Title from the Tutorial body
+### Title from the Tutorial body
 <!-- description --> Description from the Tutorial body
 
 ## Prerequisites  
