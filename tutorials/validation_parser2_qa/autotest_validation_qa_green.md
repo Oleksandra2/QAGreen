@@ -12,8 +12,6 @@ creator_profile: https://github.com/Oleksandra2
 parser: v2
 keywords: validation, parser v2
 ---
-
-
 <!-- description --> Description from the Tutorial body
 
 ## Prerequisites  
