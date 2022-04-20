@@ -13,7 +13,7 @@ primary_tag: software-product>SAP-Analytics
   - How to access and use Swagger UI (User Interface)
   - How to extract information from files with Document Information Extraction
 
-# The core functionality of Document Information Extraction is to automatically extract structured information from documents using machine learning. When you finish this tutorial, you will get field value predictions for the documents you upload to Document Information Extraction.
+The core functionality of Document Information Extraction is to automatically extract structured information from documents using machine learning. When you finish this tutorial, you will get field value predictions for the documents you upload to Document Information Extraction.
 
 ---
 
