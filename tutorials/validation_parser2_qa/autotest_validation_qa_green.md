@@ -1,7 +1,7 @@
 ---
-title: Validation form for QA Green
+title: 
 description: autotests description
-primary_tag: topic>mobile
+primary_tag: topic>mobilee
 tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner]
 qrcode: true
 time: 20
