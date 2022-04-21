@@ -167,11 +167,6 @@ This creates a link to the Element information for that interface.
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 5: ](Test yourself)]
-
-
-[VALIDATE_1]
-[ACCORDION-END]
 
 ### More Information
 - SAP Help Portal: [Editing ABAP Doc Comments](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec136586e391014adc9fffe4e204223.html)
