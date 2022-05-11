@@ -31,6 +31,8 @@ creator_profile: https://github.com/BigotryOps
 
 In this tutorial, wherever `XXX` appears, use a number (e.g. `000`) or your initials.
 
+## Intro
+
 For more information, see:
 - [SAP Help Portal: What is SAP BTP](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html)
 
