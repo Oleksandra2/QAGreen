@@ -533,13 +533,8 @@ Status;
 
 ```
 
-
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 15: ](Test yourself)]
-
-[VALIDATE_1]
-[ACCORDION-END]
 
 ---
