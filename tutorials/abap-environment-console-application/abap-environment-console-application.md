@@ -192,6 +192,4 @@ Jump to [Implement an Interface](saveandactivate.png)
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 7: ](Test yourself)]
-Write only the write statement with following information: Hello SAP Cloud Platform ABAP Environment!
 
