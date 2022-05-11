@@ -11,6 +11,7 @@ creator_name: Test Test T.
 creator_profile: https://github.com/BigotryOps
 ---
 
+
 ## Prerequisites  
 
 **For ABAP license:**
@@ -101,7 +102,7 @@ Jump to [Implement an Interface](saveandactivate.png)
 [DONE]
 [ACCORDION-END]
 
-
+---
 
 [ACCORDION-BEGIN [Step 3: ](Create ABAP package)]
   1. Right-click on the `ZLOCAL` and select **New** > **ABAP Package** from the context menu.
@@ -149,6 +150,8 @@ Jump to [Implement an Interface](saveandactivate.png)
 
 [DONE]
 [ACCORDION-END]
+
+---
 
 [ACCORDION-BEGIN [Step 5: ](Implement Interface)]
   1. In the class definition, specify the interface `IF_OO_ADT_CLASSRUN` in the public section as shown on the screenshot. Now go to the class implementation and provide the implementation of the method `IF_OO_ADT_CLASSRUN~MAIN`. As shown on the screenshot, it should output the text Hello World! using the code line below
