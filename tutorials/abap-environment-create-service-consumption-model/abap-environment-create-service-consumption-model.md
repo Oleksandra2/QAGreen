@@ -230,10 +230,4 @@ Since you are implementing the query manually, you need to use a custom entity a
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 8: ](Test yourself)]
-
-[VALIDATE_1]
-[ACCORDION-END]
-
-
 ---
