@@ -34,6 +34,9 @@ For more information, see:
 - [SAP Help Portal: What is SAP BTP](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/6a2c1ab5a31b4ed9a2ce17a5329e1dd8.html)
 
 ---
+---
+---
+
 
 [ACCORDION-BEGIN [Step 1: ](Open the ABAP Development Tools (ADT) )]
 Open the ADT and change to the ABAP perspective, using the menu.
