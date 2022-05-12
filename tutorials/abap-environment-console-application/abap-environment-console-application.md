@@ -14,7 +14,6 @@ creator_profile: https://github.com/BigotryOps
 ---
 
 ## Prerequisites  
-TEST test test 
 
 ---
 
