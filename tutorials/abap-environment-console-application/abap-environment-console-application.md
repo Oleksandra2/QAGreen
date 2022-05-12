@@ -40,9 +40,6 @@ For more information, see:
 ---
 
 ---
----
-
----
 
 [ACCORDION-BEGIN [Step 1: ](Open the ABAP Development Tools (ADT) )]
 Open the ADT and change to the ABAP perspective, using the menu.
