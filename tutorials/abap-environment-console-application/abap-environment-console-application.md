@@ -11,11 +11,9 @@ creator_name: Test Test T.
 creator_profile: https://github.com/BigotryOps
 ---
 
----
 
 ## Prerequisites  
 
----
 
 **For ABAP license:**
 -	You have set up your ABAP environment as desasdcribed in [Getting Started with a Customer Account: Workflow in the ABAP Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e34a329acc804c0e874496548183682f.html)
