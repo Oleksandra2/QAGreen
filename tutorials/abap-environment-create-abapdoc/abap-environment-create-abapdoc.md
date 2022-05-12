@@ -128,7 +128,7 @@ Big Image
 
 3. Add the following two statements, so that your code looks like this:
 
-    ```
+    ``` [1, 3]
     "! <ol>
     "!    <li>Reads flights from HANA DB</li>
     "!    <li>Converts currency to EUR</li>
