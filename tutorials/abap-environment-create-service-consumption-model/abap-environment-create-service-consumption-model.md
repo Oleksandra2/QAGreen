@@ -128,7 +128,7 @@ Again, the Service Consumption Model appears in a new editor.
 [ACCORDION-BEGIN [Step 6: ](Check code)]
 The code for your abstract entity, **`ZTRAVEL** or **`ZTRAVEL<10-digit-GUID>`** should look like this:
 
-```CDS
+```CDS [1, 10, 7, 9, 12]
 
 /********** GENERATED on 01/21/2020 at 12:05:38 by CB0000000016**************/
  @OData.entitySet.name: 'Travel'
