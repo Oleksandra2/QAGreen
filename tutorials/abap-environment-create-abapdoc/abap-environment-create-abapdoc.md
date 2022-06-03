@@ -1,17 +1,17 @@
 ---
-title: AAA Test QA Green Create ABAPDoc Comments Learn how to maintain ABAPDoc documentation for your class in SAP Cloud Platform SAP Cloud Platform
-description: Learn how to maintain ABAPDoc documentation for your class in SAP Cloud Platform, ABAP Environment so your comments appear in the Outline view. ABAP Environment so your comments appear in the Outline view
+title: Create ABAPDoc Comments in Your Class in ABAP Environment QA Green
+description: Learn how to maintain ABAPDoc documentation for your class in SAP Business Technology Platform (BTP), ABAP Environment so your comments appear in the Outline view.
 auto_validation: true
-time: 25
-tags: [ tutorial>beginner, software-product>SAP-Fiori-Cloud, topic>abap-development, software-product>SAP-Mobile-Services, topic>Artificial-Intelligence]
-primary_tag: software-product>Business-Entity-Recognition
-keywords: developers, TESTT!
+time: 10
+tags: [ tutorial>beginner, software-product>sap-btp--abap-environment, software-product>sap-business-technology-platform, tutorial>license]
+primary_tag: programming-tool>abap-development
+author_name: Julie Plummer
+author_profile: https://github.com/julieplummer20
 ---
 
 ## Prerequisites
-- You have an entitlement to SAP Cloud Platform, ABsdAP Enviroasnment. For more information, see **Tutorial**: [Create Your First ABAP Console Application](abap-environment-console-application), steps 1-2
+- You have an entitlement to SAP BTP ABAP Environment. For more information, see **Tutorial**: [Create Your First ABAP Console Application](abap-environment-console-application), steps 1-2
 - You have installed [ABAP Development Tools](https://tools.hana.ondemand.com/#abap), latest version
-- **Tutorial**: [Create an AMDP and Analyze Its Performance](abap-environment-amdp-profiling)
 
 ## Details
 ### You will learn  
@@ -33,55 +33,12 @@ First, open the ABAP class **`ZCL_AMDP_DEMO_XXX`** from the tutorial [Create an 
 
 !![Image depicting step-1-open-class](step-1-open-class.png)
 
-[Click to download xls] (10n.xls)
-
-[Click to download mpeg] (11n.mpeg)
-
-[Click to download zip] (12n.zip)
-
-[Click to download doc] (1n.doc)
-
-[Click to download docx] (2n.docx)
-
-[Click to download pdf] (3n.pdf)
-
-[Click to download txt] (4n.txt)
-
-[Click to download mp4] (5n.mp4)
-
-[Click to download csv] (6n.csv)
-
-[Click to download sql] (JOINSn.sql)
-
-[Click to download mp3] (Jinglebellsringtonen.mp3)
-
-[Click to download xlsx] (Book1.xlsx)
-
-
 [DONE]
 [ACCORDION-END]
 
-[Click to download jpg] (8.jpg)
-
-[Click to download svg] (9.svg)
-
-[Click to download xml] (template.xml)
-
-[Click to download gif] (CWF.gif)
-
-[Click to download png] (access40.png)
-
-[Click to download json] (resp.json)
-
-[Click to download ico] (monitoriconn.ico)
-
-[Click to download mp3 crashed] (gfgg.mp3)
 
 [ACCORDION-BEGIN [Step 2: ](Create ABAPDoc comment)]
 1. Immediately before the class definition, add an ABAPDoc comment to the class by entering **`"!`** and choosing **Auto-complete ( `Ctrl+Space` )**.
-
-Jump to [big image](#big_image)
-### Big Image
 
 2. From the dropdown list, choose **Paragraph**, then add the following comment:
 
@@ -97,7 +54,7 @@ Jump to [big image](#big_image)
     "!<p class="shorttext synchronized">Class tests AMDP: </p>
     ```
 
-4. Add the following comments to the table type **`ty_result_line`** and to the method **`GET_FLIGHTS`** respectively: rrrrrr
+4. Add the following comments to the table type **`ty_result_line`** and to the method **`GET_FLIGHTS`** respectively:
 
     ```
     "!<p class="shorttext synchronized">Table type of Flights from HANA DB</p>
@@ -110,10 +67,6 @@ The comments should now appear in the Outline View:
 
 !![step2b-shorttext-synch-class](step2b-shorttext-synch-class.png)
 
-!![step3a-add-sorted-list](step3a-add-sorted-list.png)
-
-Big Image
-
 [DONE]
 [ACCORDION-END]
 
@@ -123,46 +76,17 @@ Big Image
 
 2. Again, choose **Auto-complete ( `Ctrl+Space` )**. Then choose **Sorted list**.
 
-
-
+    !![step3a-add-sorted-list](step3a-add-sorted-list.png)
 
 3. Add the following two statements, so that your code looks like this:
 
-    ``` [1, 3]
+    ```
     "! <ol>
     "!    <li>Reads flights from HANA DB</li>
     "!    <li>Converts currency to EUR</li>
     "! </ol>
 
     ```
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 5: ](Add link)]
-1. Immediately after the sorted list, choose **Enter**.
-
-2. Now enter the following comment:
-
-    **`"! <p>Implements the interface { @link INTF: if_oo_adt_classrun } </p>`**
-
-This creates a link to the Element information for that interface.
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 6: ](Check comment)]
-1. Save and activate your class ( **`Ctrl+S, Ctrl+F3`** ).
-
-2. Select your class and choose **Show code element information (`F2`)**.
-
-3. Your comments should appear look like this:
-
-    !![step4a-element-info](step4a-element-info.png)
-
-4. If you choose the link to the interface, its documentation appears:
-
-    !![step6b-interface-abapdoc](step6b-interface-abapdoc.png)
 
 [DONE]
 [ACCORDION-END]
