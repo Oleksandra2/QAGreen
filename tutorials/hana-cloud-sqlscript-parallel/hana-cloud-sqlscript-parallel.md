@@ -1,14 +1,12 @@
 ---
-
+title: Parallel Processing and Parameters QA Green
 description: Leverage SQLScript in stored procedures, user defined functions, and user defined libraries.
 author_name: Rich Heilman
 author_profile: https://github.com/rich-heilman
 primary_tag: products>sap-ha
-tags:   
+tags: [ tutorial>intermediate, topic>javascript, products>sap-business-t] 
 time: 15
 ---
-
-# Test
 
 ## Prerequisites  
 - This tutorial is designed for SAP HANA Cloud.
@@ -23,9 +21,6 @@ In this exercise, we will modify the code of procedure `get_po_header_data`  so 
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Edit previous procedure)]
-
-title Parallel Processing and Parameters QA Green
-
 
 1. Return to your procedure called `get_po_header_data`.
 
