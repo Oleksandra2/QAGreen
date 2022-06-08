@@ -4,7 +4,7 @@ description: Use OData navigation properties with the SAP Cloud SDK's virtual da
 auto_validation: true
 time: 20
 tags: [ tutorial>intermediate, topic>javascript, products>sap-business-technology-platform, topic>da]
-primary_tag: products>sap-clo
+primary_tag: products>sap-business-technology-platform
 ---
 
 ## Prerequisites
