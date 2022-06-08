@@ -3,7 +3,7 @@ title: Parallel Processing and Parameters QA Green
 description: Leverage SQLScript in stored procedures, user defined functions, and user defined libraries.
 author_name: Rich Heilman
 author_profile: https://github.com/rich-heilman
-primary_tag: products>sap-ha
+primary_tag: products>api-management
 tags: [ tutorial>intermediate, topic>javascript, products>sap-business-t] 
 time: 15
 ---
