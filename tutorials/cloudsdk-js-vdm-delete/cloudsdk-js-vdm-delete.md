@@ -1,18 +1,16 @@
 ---
-
+title: Delete OData Entities with the SAP Cloud SDK's Virtual Data Model QA Green
 description: Delete OData entities with the SAP Cloud SDK's virtual data model to duild an address manager application.
 auto_validation: true
 time: 15
 tags: [ tutorial>intermediate, products>sap-business-technology-platform, topic>javascript, topic>o]
-primary_tag: products>sap-cloud-sdk
+primary_tag: products>sap-cloud-s
 ---
 
 ## Prerequisites
  - Have `Node.js` and `npm` [installed on your machine](s4sdkjs-prerequisites).
  - Have access to an SAP S/4HANA Cloud system or the [SAP API Business Hub Sandbox](https://api.sap.com/getting-started), or use the [Business Partner Mock Service](https://sap.github.io/cloud-s4-sdk-book/pages/mock-odata.html).
  - Basic knowledge of OData is recommended, but not required.
-
-Delete OData Entities with the SAP Cloud SDK's Virtual Data Model QA Green
 
 ## Details
 
