@@ -302,3 +302,98 @@ Congratulations!   You have now used remote sources to access data running on a 
 
 [DONE]
 
+### Create a tourist review table in SAP HANA Cloud
+
+1. From the SAP HANA Cloud Cockpit, open the SAP HANA database explorer.
+
+2. Execute the following SQL statements to create the `tourist_reviews` table.
+
+---
+
+[DONE]
+
+---
+
+### Create a remote source from SAP HANA, express edition to SAP HANA Cloud
+
+1. To create a remote source from SAP HANA, express edition to SAP HANA Cloud, open the SAP HANA database explorer from the SAP HANA, express edition.
+
+     Right-click on **Remote Sources** and select **Add Remote Source**.  
+
+[DONE]
+
+### Create a virtual table and execute a federated query
+In this step, a virtual table named `vt_tourist_reviews` will be created in SAP HANA, express edition. This will enable access to the `tourist_reviews` table that was created in SAP HANA Cloud.   This can be visualized as follows:
+
+[DONE]
+
+### SAP HANA Data Lake
+
+[SAP HANA Data Lake](https://help.sap.com/viewer/product/SAP_HANA_DATA_LAKE/cloud/en-US) can be used to store large amounts of data that is not accessed frequently.  The following steps create the table `tourist_reviews` in SAP HANA Data Lake and access the table from the associated SAP HANA Cloud instance and from an SAP HANA, express edition database.
+
+Congratulations!   You have now used remote sources to access data running on a different SAP HANA instance and on a SAP HANA Data Lake.
+
+[DONE]
+
+### Create a remote source from SAP HANA, express edition to SAP HANA Cloud
+
+1. To create a remote source from SAP HANA, express edition to SAP HANA Cloud, open the SAP HANA database explorer from the SAP HANA, express edition.
+
+     Right-click on **Remote Sources** and select **Add Remote Source**.  
+
+[DONE]
+
+### Create a virtual table and execute a federated query
+In this step, a virtual table named `vt_tourist_reviews` will be created in SAP HANA, express edition. This will enable access to the `tourist_reviews` table that was created in SAP HANA Cloud.   This can be visualized as follows:
+
+[DONE]
+
+### SAP HANA Data Lake
+
+[SAP HANA Data Lake](https://help.sap.com/viewer/product/SAP_HANA_DATA_LAKE/cloud/en-US) can be used to store large amounts of data that is not accessed frequently.  The following steps create the table `tourist_reviews` in SAP HANA Data Lake and access the table from the associated SAP HANA Cloud instance and from an SAP HANA, express edition database.
+
+Congratulations!   You have now used remote sources to access data running on a different SAP HANA instance and on a SAP HANA Data Lake.
+
+[DONE]
+
+### Create a remote source from SAP HANA, express edition to SAP HANA Cloud
+
+1. To create a remote source from SAP HANA, express edition to SAP HANA Cloud, open the SAP HANA database explorer from the SAP HANA, express edition.
+
+     Right-click on **Remote Sources** and select **Add Remote Source**.  
+
+[DONE]
+
+### Create a virtual table and execute a federated query
+In this step, a virtual table named `vt_tourist_reviews` will be created in SAP HANA, express edition. This will enable access to the `tourist_reviews` table that was created in SAP HANA Cloud.   This can be visualized as follows:
+
+[DONE]
+
+### SAP HANA Data Lake
+
+[SAP HANA Data Lake](https://help.sap.com/viewer/product/SAP_HANA_DATA_LAKE/cloud/en-US) can be used to store large amounts of data that is not accessed frequently.  The following steps create the table `tourist_reviews` in SAP HANA Data Lake and access the table from the associated SAP HANA Cloud instance and from an SAP HANA, express edition database.
+
+Congratulations!   You have now used remote sources to access data running on a different SAP HANA instance and on a SAP HANA Data Lake.
+
+[DONE]
+
+### Create a remote source from SAP HANA, express edition to SAP HANA Cloud
+
+1. To create a remote source from SAP HANA, express edition to SAP HANA Cloud, open the SAP HANA database explorer from the SAP HANA, express edition.
+
+     Right-click on **Remote Sources** and select **Add Remote Source**.  
+
+[DONE]
+
+### Create a virtual table and execute a federated query
+In this step, a virtual table named `vt_tourist_reviews` will be created in SAP HANA, express edition. This will enable access to the `tourist_reviews` table that was created in SAP HANA Cloud.   This can be visualized as follows:
+
+[DONE]
+
+### SAP HANA Data Lake
+
+[SAP HANA Data Lake](https://help.sap.com/viewer/product/SAP_HANA_DATA_LAKE/cloud/en-US) can be used to store large amounts of data that is not accessed frequently.  The following steps create the table `tourist_reviews` in SAP HANA Data Lake and access the table from the associated SAP HANA Cloud instance and from an SAP HANA, express edition database.
+
+Congratulations!   You have now used remote sources to access data running on a different SAP HANA instance and on a SAP HANA Data Lake.
+
+[DONE]
