@@ -43,7 +43,6 @@ In the service key you created for Document Information Extraction in the previo
 
     !![DOX](png-files/Authorize2.png)
 
-[VALIDATE_1]
 [ACCORDION-END]
 
 
