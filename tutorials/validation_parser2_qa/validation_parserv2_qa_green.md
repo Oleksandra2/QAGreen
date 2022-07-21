@@ -47,7 +47,7 @@ Virtual tables point to data stored in another database.  Federated queries join
 
     <!-- border --> ![app-create](final-app-create.png)
     
-    ```JavaScript / TypeScript [6,9,11]
+    ```JavaScript / TypeScript  [6,9,11]
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
