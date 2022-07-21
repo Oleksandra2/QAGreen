@@ -35,8 +35,10 @@ The text of question for multi-choice
 [VALIDATE_5]
 ###Rule
 single-choice
+
 ###Question
 True or False: The text of question for single-choice
+
 ###Match
 [x] True
 [ ] False
