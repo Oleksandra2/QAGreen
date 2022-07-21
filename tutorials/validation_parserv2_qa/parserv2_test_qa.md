@@ -1,5 +1,5 @@
 ---
-title: Validation form with parser v2 updated
+title: Validation form with parser v2 QA Green
 description: description
 primary_tag: topic>mobile
 tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner]
@@ -49,7 +49,7 @@ Virtual tables point to data stored in another database.  Federated queries join
     <!-- border --> ![app-create](final-app-create.png)
 3. Test for code highlighting
     
-```JavaScript / TypeScript [2,6,7]
+```JavaScript / TypeScript
 import { Module } ### from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
