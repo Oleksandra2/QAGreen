@@ -51,7 +51,7 @@ Virtual tables point to data stored in another database.  Federated queries join
 3. Blablabla
     
 ```JavaScript / TypeScript [2,6,7]
-import { Module } from '@nestjs/common';
+import { Module } ### from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { BusinessPartnerController } from './business-partner.controller';
