@@ -36,9 +36,9 @@ The text of question for multi-choice
 ###Rule
 single-choice
 ###Question
-The text of question for single-choice
+True or False: The text of question for single-choice
 ###Match
-[x] Answer 1
-[ ] Answer 2
+[x] True
+[ ] False
 [VALIDATE_5]
 
