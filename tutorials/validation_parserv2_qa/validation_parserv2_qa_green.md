@@ -53,7 +53,6 @@ Virtual tables point to data stored in another database.  Federated queries join
     "!    <li>Reads flights from HANA DB</li>
     "!    <li>Converts currency to EUR</li>
     "! </ol>
-
     ```
 
 [DONE]
