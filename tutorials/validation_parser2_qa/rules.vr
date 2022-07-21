@@ -32,3 +32,13 @@ The text of question for multi-choice
 [x] Answer 4
 [VALIDATE_4]
 
+[VALIDATE_5]
+###Rule
+single-choice
+###Question
+The text of question for single-choice
+###Match
+[x] Answer 1
+[ ] Answer 2
+[VALIDATE_5]
+
