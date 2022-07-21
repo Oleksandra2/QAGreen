@@ -46,7 +46,20 @@ Virtual tables point to data stored in another database.  Federated queries join
     <!-- border; size:250px --> ![step1a-create-package](step1a-create-package.png)
 
     <!-- border --> ![app-create](final-app-create.png)
-    
+
+3. Code test
+```JavaScript / TypeScript [2,3,6,10]
+import { Controller, Param, HttpCode, Delete } from '@nestjs/common';
+
+@Controller('business-partners')
+export class BusinessPartnerController {
+  @Delete('/:businessPartnerId/address/:addressId')
+  @HttpCode(204)
+  deleteBusinessPartnerAddress(@Param('businessPartnerId') businessPartnerId, @Param('addressId') addressId){
+    console.log(`Your request parameters are businessPartnerId:${businessPartnerId} and addressId:${addressId}.`);
+  }
+}
+```  
 [DONE]
 
 ### Extra match rule
