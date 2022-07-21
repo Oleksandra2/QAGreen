@@ -55,3 +55,5 @@ Virtual tables point to data stored in another database.  Federated queries join
  
 ### multi-choice
 
+### single-choice
+
