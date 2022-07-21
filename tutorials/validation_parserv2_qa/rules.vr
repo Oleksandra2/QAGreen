@@ -37,7 +37,7 @@ The text of question for multi-choice
 ###Rule
 single-choice2
 ###Question
-True or Fales:
+True or False:
 Pipes are required.
 ###Match
 [x] True
