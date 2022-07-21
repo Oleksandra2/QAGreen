@@ -32,3 +32,14 @@ The text of question for multi-choice
 [x] Answer 4
 [VALIDATE_4]
 
+
+[VALIDATE_5]
+###Rule
+single-choice
+###Question
+True or Fales:
+Pipes are required.
+###Match
+[x] True
+[ ] False
+[VALIDATE_5]
