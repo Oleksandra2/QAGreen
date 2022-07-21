@@ -73,3 +73,4 @@ export class AppModule {}
 
 ### multi-choice
 
+### single-choice
