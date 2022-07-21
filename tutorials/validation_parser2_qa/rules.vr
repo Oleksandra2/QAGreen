@@ -33,6 +33,7 @@ The text of question for multi-choice
 [VALIDATE_4]
 
 [VALIDATE_5]
+
 ###Rule
 single-choice
 
@@ -43,5 +44,6 @@ The text of question for single-choice
 ###Match
 [x] True
 [ ] False
+
 [VALIDATE_5]
 
