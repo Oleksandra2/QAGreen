@@ -37,7 +37,7 @@ The text of question for multi-choice
 ###Rule
 single-choice2
 ###Question
-True or False: Pipes are required on the outside of table content?
+True or False Pipes are required on the outside of table content?
 ###Match
 [x] True
 [ ] False
