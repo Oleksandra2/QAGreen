@@ -35,7 +35,7 @@ The text of question for multi-choice
 
 [VALIDATE_5]
 ###Rule
-single-choice
+single-choice2
 ###Question
 True or Fales:
 Pipes are required.
