@@ -50,46 +50,20 @@ Virtual tables point to data stored in another database.  Federated queries join
 
 3. Blablabla
     
-    ```Shell [2,5,7,10,12]
-    sed "s/const HtmlWebpackPlugin = require('html-webpack-plugin');/const HtmlWebpackPlugin = require('html-webpack-plugin');const CopyWebpackPlugin = require('copy-webpack-plugin');/g" config/webpack.config.js > config/webpack.config.tmp.js && mv config/webpack.config.tmp.js config/webpack.config.js
+```JavaScript / TypeScript [2,6,7]
+import { Module } from '@nestjs/common';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+import { BusinessPartnerController } from './business-partner.controller';
+import { BusinessPartnerService } from './business-partner.service';
 
-    sed "s/new HtmlWebpackPlugin(/new CopyWebpackPlugin([\
-    {context: 'public', to: 'index.html', from: 'index.html'  },\
-    {context: 'node_modules\/@luigi-project\/core',to: '.\/luigi-core',from: {glob: '**',dot: true}}],\
-    {ignore: ['.gitkeep', '**\/.DS_Store', '**\/Thumbs.db'],debug: 'warning'\
-    }),\
-    new HtmlWebpackPlugin(/g" config/webpack.config.js > config/webpack.config.tmp.js && mv config/webpack.config.tmp.js config/webpack.config.js
-
-    sed "s/template: paths.appHtml,/template: paths.appHtml,\
-    filename: 'sampleapp.html',/g" config/webpack.config.js > config/webpack.config.tmp.js && mv config/webpack.config.tmp.js config/webpack.config.js
-
-    sed "s/public\/index.html/public\/sampleapp.html/g" config/paths.js > config/paths.tmp.js && mv config/paths.tmp.js config/paths.js
-
-    sed "s/publicUrl + '\/index.html',/publicUrl + '\/sampleapp.html',/g" config/webpack.config.js > config/webpack.config.tmp.js && mv config/webpack.config.tmp.js config/webpack.config.js
-
-    sed "s/const isWsl = require('is-wsl');//g" config/webpack.config.js > config/webpack.config.tmp.js && mv config/webpack.config.tmp.js config/webpack.config.js
-
-    #This can throw a warning, it can be ignored
-    sed "s/!isWsl/true/g" config/webpack.config.js > config/webpack.config.tmp.js && mv config/webpack.config.tmp.js config/webpack.config.js
-
-    echo "const path = require('path');
-    module.exports = {
-        entry: './src/luigi-config/luigi-config.es6.js',
-        output: {
-            filename: 'luigi-config.js',
-            path: path.resolve(__dirname, 'public'),
-        },
-    };">webpack.config.js
-
-    sed 's/"scripts": {/"scripts": {\
-    \    "buildConfig":"webpack --config webpack.config.js",/1' package.json > p.tmp.json && mv p.tmp.json package.json
-
-    echo '{
-        "globals": {
-            "Luigi": "readonly"
-        }
-    }'>.eslintrc.json
-    ```
+@Module({
+  imports: [],
+  controllers: [AppController, BusinessPartnerController],
+  providers: [AppService, BusinessPartnerService]
+})
+export class AppModule {}
+```
 
 [DONE]
 
