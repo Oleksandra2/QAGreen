@@ -1,7 +1,7 @@
 ---
 title: Validation form with parser v2 QA Green upd
 description: description
-primary_tag: topic>mobile
+primary_tag: topic>tag-for-test
 tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner]
 qrcode: true
 time: 20
