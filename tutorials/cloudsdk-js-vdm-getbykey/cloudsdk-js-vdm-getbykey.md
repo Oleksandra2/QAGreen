@@ -3,7 +3,7 @@ title: Use OData Navigation Properties with the SAP Cloud SDK's Virtual Data Mod
 description: Use OData navigation properties with the SAP Cloud SDK's virtual data model to duild an address manager application.
 auto_validation: true
 time: 20
-tags: [ tutorial>intermediate, topic>javascript, software-product>sap-business-technology-platform]
+tags: [ tutorial>intermediate, topic>javascript, software-product>sap-business-technology-platform, tutorial>community]
 primary_tag: software-product>sap-trade-management
 ---
 
