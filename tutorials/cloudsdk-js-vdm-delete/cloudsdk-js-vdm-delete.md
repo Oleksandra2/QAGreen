@@ -4,7 +4,7 @@ description: Delete OData entities with the SAP Cloud SDK's virtual data model t
 auto_validation: true
 time: 15
 tags: [ tutorial>intermediate, products>sap-business-technology-platform, topic>javascript, topic>api]
-primary_tag: products>sap-cloud-sdk
+primary_tag: topic>new-tag-with-long-long-long-long-long-long-long-long-long-long-long-long-long-long-long-long-title-tag-for-test
 ---
 
 ## Prerequisites
