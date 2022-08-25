@@ -2,7 +2,7 @@
 title: Validation form with parser v2 2
 description: description
 primary_tag: topic>mobile
-tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner, tutorial>license]
+tags: [topic>User-Experience, tutorial>community, software-product>Analytics, tutorial>beginner ]
 qrcode: true
 time: 20
 author_profile: https://github.com/ksAutotests
