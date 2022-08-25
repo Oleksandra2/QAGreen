@@ -22,7 +22,7 @@ In this exercise, we will modify the code of procedure `get_po_header_data`  so 
 
 [ACCORDION-BEGIN [Step 1: ](Edit previous procedure)]
 
-1. Return to your procedure called `get_po_header_data`.
+1. Return to your procedure ####called `get_po_header_data`.
 
     !![Existing Procedure](1_1.png)
 
@@ -30,11 +30,11 @@ In this exercise, we will modify the code of procedure `get_po_header_data`  so 
 
     !![Define output](1_2.png)
 
-3. Next, assign SELECT statements to the output parameters as shown here.
+3. Next, assign SELECT#### statements to the output parameters as shown here.
 
     !![assign select](1_3.png)
 
-4. The completed code should be similar to this.
+4. The completed code ###should be similar to this.
 
     ```SQLCRIPT
     PROCEDURE "get_po_header_data"(
