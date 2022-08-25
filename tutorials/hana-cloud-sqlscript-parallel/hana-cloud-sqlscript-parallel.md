@@ -34,11 +34,11 @@ In this exercise, we will modify the code of procedure `get_po_header_data`  so 
 
     !![assign select](1_3.png)
 
-4. The completed code ###should be similar to this.
+4. The completed code should be similar ####to this.
 
     ```SQLCRIPT
     PROCEDURE "get_po_header_data"(
-             OUT EX_PO_CREATE_CNT TABLE(
+             OUT EX_PO_CREATE_CNT#### TABLE(
                CREATE_CNT INTEGER,
                "CREATEDBY" NVARCHAR(255)),
             OUT EX_PO_CHANGE_CNT TABLE(
@@ -47,7 +47,7 @@ In this exercise, we will modify the code of procedure `get_po_header_data`  so 
        LANGUAGE SQLSCRIPT
        SQL SECURITY INVOKER
        --DEFAULT SCHEMA <default_schema_name>
-       READS SQL DATA AS
+       READS SQL DATA ### AS
     BEGIN
 
     ex_po_create_cnt =  SELECT COUNT(*) AS CREATE_CNT, "CREATEDBY"
