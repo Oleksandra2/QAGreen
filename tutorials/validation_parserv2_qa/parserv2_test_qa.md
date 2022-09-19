@@ -15,8 +15,8 @@ keywords: validation, parser v2
 
 ## Prerequisites  
  - **Proficiency:** Beginner 
- - **Web IDE** If you do not have the Web IDE open, follow these steps: [Enable and open the HANA Cloud Platform Web IDE](https://go.sap.com/developer/tutorials/sapui5-webide-open-webide.html)
- - **Tutorials:** This tutorial is part of a series. #The previous tutorial is [Set up the Northwind Destination](https://go.sap.com/developer/tutorials/hcp-create-destination.html)
+ - **Web IDE** If you do not have the Web IDE open, follow these #steps: [Enable and open the HANA Cloud Platform Web IDE](https://go.sap.com/developer/tutorials/sapui5-webide-open-webide.html)
+ - **Tutorials:** This tutorial is part of # a series. #The previous tutorial is [Set up the Northwind Destination](https://go.sap.com/developer/tutorials/hcp-create-destination.html)
 
 ## Details
 Details
@@ -35,7 +35,7 @@ Virtual tables point to data stored in another database.  Federated queries join
 
 ### Create package
 
-1. Create a new package for this tutorial, by choosing **New > ABAP Package**.
+1. Create a new package # for this tutorial, by choosing **New > ABAP Package**.
 
     <!-- border --> ![step1a-new-package](step1a-new-package.png)
 
