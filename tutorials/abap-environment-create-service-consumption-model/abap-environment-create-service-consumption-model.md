@@ -3,7 +3,7 @@ title: Test QA Green Create a Service Consumption Model
 description: Create an OData service consumption model in an SAP Business Technology Platform, ABAP Environment instance. In a second instance, prepare it for consumption.
 auto_validation: true
 time: 45
-tags: [ tutorial>intermediate, products>sap-btp--abap-environment, software-product>sap-business-technology-platform, software-product>business-rules, tutorial>license, topic>best-run]
+tags: [ tutorial>intermediate, products>sap-btp--abap-environment, software-product>sap-business-technology-platform, software-product>business-rules, tutorial>license, topic>best-run, tutorial>license]
 primary_tag: software-product>SAP-Gateway
 author_name: Julie Plummer
 author_profile: https://github.com/julieplummer20
