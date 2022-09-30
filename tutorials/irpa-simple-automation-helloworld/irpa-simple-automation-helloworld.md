@@ -5,7 +5,7 @@ description: Create a simple automation to display a Hello World message, to tes
 keywords: RPA
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-intelligent-robotic-process-automation]
+tags: [ tutorial>beginner, software-product>sap-intelligent-robotic-process-automation, tutorial>license]
 primary_tag: software-product>sap-intelligent-robotic-process-automation
 ---
 ## Prerequisites
