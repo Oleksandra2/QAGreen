@@ -25,6 +25,8 @@ The text of question for single-choice
 multiple-choice
 ###Question
 The text of question for multi-choice
+The text of question for multi-choice<br>
+The text of question for multi-choice
 ###Match
 [x] Answer 1
 [ ] Answer 2
@@ -37,6 +39,7 @@ The text of question for multi-choice
 ###Rule
 single-choice2
 ###Question
+True or False Pipes are required on the outside of table content?<br>
 True or False Pipes are required on the outside of table content?
 ###Match
 [x] True
