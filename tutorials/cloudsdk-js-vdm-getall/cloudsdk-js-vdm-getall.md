@@ -1,5 +1,5 @@
 ---
-title: Build OData Queries with the SAP Cloud SDK's Virtual Data Model QA Green
+title: Build OData Queries with the SAP Cloud SDK's Virtual Data Model QA Green upd
 description: Build OData queries with the SAP Cloud SDK's virtual data model to build an address manager application.
 auto_validation: true
 time: 30
