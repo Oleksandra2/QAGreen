@@ -213,7 +213,7 @@ The service binding automatically references the service definition and thus the
 
     > `BookingFee` is not automatically displayed. The numbers for each field are relative to the other fields and are responsive - they do not refer to a specific pixel position or similar. For larger entities, you can specify *HIGH*,*MEDIUM*, or *LOW*, so that less important fields are automatically hidden on a smaller screen, such as a mobile phone.
 
-    ```CDS
+    ```CDS [2, 3-6]
     @UI           : {
     lineItem      : [{position: 10, importance: #HIGH}]
     }
