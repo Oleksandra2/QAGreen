@@ -1,5 +1,5 @@
 ---
-title: Accsess Test QA Green Create an ABAP Core Data Services (CDS) View in SAP Cloud Platform, ABAP Environment 2 upd
+title: Accsess Test QA Green Create an ABAP Core Data Services (CDS) View in SAP Cloud Platform, ABAP Environment 2 upd View in SAP Cloud Platform, ABAP Environment 2 upd
 description: Create a CDS View, display it in Fiori Elements preview, and enhance its appearances using built-in annotations
 auto_validation: true
 time: 45
