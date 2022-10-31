@@ -29,42 +29,13 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
 
 ---
 
-[ACCORDION-BEGIN [Step 1: ](What is the SAP Cloud SDK's Virtual Data Model?)]
-
-Most of the services exposed by SAP S/4HANA Cloud and On-Premise are OData services. OData is a [RESTful API protocol](https://www.odata.org/) that has two key features:
-
-- Each service is described by a metadata document that lists all entities, their properties and relations, and which operations can be executed on them.
-- OData defines a set of SQL-like operators that allow constructing powerful queries.
-
-However, building requests by hand can be tedious and error-prone. It's easy to mistype the name of an entity or a property, which will make the request fail. Furthermore, you have to continuously cross-check with the service's metadata to look up the spelling and types of entities and properties.
-
-The Virtual Data Model is a set of API clients that are generated from a service's metadata. Every entity and their properties are represented by concrete objects. This allows you to build requests in a fluent, type-safe and discoverable manner.
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 2: ](Set up your application)]
-
-This tutorial and the following ones in this group are based on the SAP Cloud SDK's project scaffolding. We have described how to set it up in a [previous tutorial](s4sdkjs-getting-started). Go ahead and generate a fresh `NestJS` project as a starting point as described in this tutorial.
-
-For each OData service in SAP S/4HANA Cloud, there is a corresponding npm package in the SAP Cloud SDK. You can find an overview of [all packages here](https://help.sap.com/doc/9dbcab0600b346c2b359a8c8978a45ba/1.0/en-US/globals.html). All of the VDM packages are prefixed with `@sap/cloud-sdk-vdm`. The package for the business partner service can be installed by executing the following command on your command line:
-
-```Shell
-npm install @sap/cloud-sdk-vdm-business-partner-service@^1.28.2
-```
-
-Starting with version `1.4.0` of the SAP Cloud SDK for JavaScript, you can also use our generator for your own custom OData services.
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 3: ](Add an API endpoint)]
+[ACCORDION-BEGIN [Step 1: ](Add an API endpoint)]
 
 A `NestJS` application is based on three main entities: `Service`, `Controller` and `Module`.
 
 In the scaffold a set of these entities has already been created: `app.service.ts`, `app.controller.ts` and `app.module.ts`. We will create a new set in order to query business partners from a S/4HANA Cloud system. For details on the concepts have a look at the [Nest tutorials](https://docs.nestjs.com/first-steps). Start with a `business-partner.service.ts` file, which will contain the implementation of the query:
 
-```JavaScript / TypeScript[3,5-7]
+```JavaScript / TypeScript[3,5-7,11]
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
