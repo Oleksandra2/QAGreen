@@ -2,8 +2,9 @@
 title: Build OData Queries with the SAP Cloud SDK's Virtual Data Model QA Green upd 222
 description: Build OData queries with the SAP Cloud SDK's virtual data model to build an address manager application.
 auto_validation: true
-first_author: test test
-owner: test two
+author_name: Test TesT
+author_profile: https://github.com/mervey45
+creator_name: Test Test T.
 time: 30
 tags: [ tutorial>intermediate, topic>javascript, products>sap-business-technology-platform, topic>odata]
 primary_tag: products>open-Connectors
