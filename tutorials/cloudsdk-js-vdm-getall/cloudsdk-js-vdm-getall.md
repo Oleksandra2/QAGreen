@@ -64,7 +64,7 @@ A `NestJS` application is based on three main entities: `Service`, `Controller` 
 
 In the scaffold a set of these entities has already been created: `app.service.ts`, `app.controller.ts` and `app.module.ts`. We will create a new set in order to query business partners from a S/4HANA Cloud system. For details on the concepts have a look at the [Nest tutorials](https://docs.nestjs.com/first-steps). Start with a `business-partner.service.ts` file, which will contain the implementation of the query:
 
-```JavaScript / TypeScript
+```JavaScript / TypeScript[3,5-7]
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
