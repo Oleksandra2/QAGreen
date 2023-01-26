@@ -29,7 +29,6 @@ Now that you have set up a Dqqqqestination in the HANA Cloud Platform (HCP) cock
 
 ## Intro  
 Test TEXT
-
 ---
 
 ### Create package
