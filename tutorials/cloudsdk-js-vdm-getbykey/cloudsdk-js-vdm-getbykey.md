@@ -1,5 +1,5 @@
 ---
-title: AAA for test Use OData Navigation Properties with the SAP Cloud SDK's Virtual Data Model QA Green changed 3
+title: AAA for test Use OData Navigation Properties with the SAP Cloud SDK's Virtual Data Model QA Green changed 4
 description: Use OData navigation properties with the SAP Cloud SDK's virtual data model to duild an address manager application.
 auto_validation: true
 time: 20
