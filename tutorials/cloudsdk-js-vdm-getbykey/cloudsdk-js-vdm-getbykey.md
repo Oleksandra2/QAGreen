@@ -5,8 +5,8 @@ auto_validation: true
 time: 20
 tags: [ tutorial>intermediate, topic>javascript, software-product>sap-business-technology-platform, tutorial>community]
 primary_tag: software-product>sap-trade-management
-author_name: Test Test
-author_profile: https://github.com/BigotryOps
+author_name: Joshua Margo
+author_profile: joshua.margo@sap.com
 ---
 
 ## Prerequisites
