@@ -6,7 +6,7 @@ time: 20
 tags: [ tutorial>intermediate, topic>javascript, software-product>sap-business-technology-platform, tutorial>community]
 primary_tag: software-product>sap-trade-management
 author_name: Test Test
-author_profile: Oleksandra_Kovtunenko@epam.com
+author_profile: https://github.com/BigotryOps
 ---
 
 ## Prerequisites
