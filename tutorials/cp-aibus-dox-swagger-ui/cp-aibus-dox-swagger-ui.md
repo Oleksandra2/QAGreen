@@ -5,6 +5,8 @@ auto_validation: true
 time: 15
 tags: [tutorial>beginner, software-product>Technology-Platform, software-product>SAP-Fiori-Cloud, tutorial>license]
 primary_tag: software-product>SAP-Analytics
+author_name: Test Test
+author_profile: https://github.com/BigotryOps
 ---
 
 ## Details
