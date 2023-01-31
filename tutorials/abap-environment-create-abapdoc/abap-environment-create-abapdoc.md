@@ -9,7 +9,7 @@ primary_tag: programming-tool>abap-development
 
 ## Prerequisites
 - You have an entitlement to SAP BTP ABAP Environment. For more information, see **Tutorial**: [Create Your First ABAP Console Application](abap-environment-console-application), steps 1-2
-- You have installed [ABAP Development Tools](https://tools.hana.ondemand.com/#abap), latest version
+- Click to open the video [ABAP Development Tools](https://www.youtube.com/watch?v=wLlL46pYcg4), latest version
 
 ## Details
 ### You will learn  
