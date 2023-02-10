@@ -51,7 +51,7 @@ And select **ABAP** and click **Open**.
 
 Or select the icon.
 
- ![adt-abap-icon](adt-abap-icon.png)
+ ![adt-abap-icon](adt-abap-icon.png) <iframe width="560" height="315" src=https://www.youtube.com/embed/do_UT5NqAO0 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Jump to [Implement an Interface](saveandactivate.png)
 
