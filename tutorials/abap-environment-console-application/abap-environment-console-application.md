@@ -5,8 +5,6 @@ description: Create asdasd an ABAP package and an ABasdAP class in the SAP BTP, 
 primary_tag: software-product>business-rules
 tags: [ tutorial>advanced, topic>abap-development, software-product>SAP-Fiori-Client, software-product>analytic-applications, software-product-function>sap-hana-cloud\,-sap-hana-database, tutorial>license]
 time: 10
-author_name: Merve Temel
-author_profile: https://github.com/mervey45
 creator_name: Test Test T.
 creator_profile: https://github.com/BigotryOps
 ---
