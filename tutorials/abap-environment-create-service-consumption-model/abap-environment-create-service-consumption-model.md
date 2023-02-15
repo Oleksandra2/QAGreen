@@ -5,9 +5,6 @@ auto_validation: true
 time: 45
 tags: [ tutorial>intermediate, products>sap-btp--abap-environment, software-product>sap-business-technology-platform, software-product>business-rules, tutorial>license, topic>best-run, tutorial>license]
 primary_tag: software-product>SAP-Gateway
-author_name: Julie Plummer
-author_profile: https://github.com/julieplummer20
-creator_name: Test Test Test
 keywords: SAP cloud database HTML5
 ---
 
