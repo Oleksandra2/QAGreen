@@ -1,8 +1,6 @@
 ---
 title: Register for SAP HANA, express edition QA Green
 description: Register your copy of SAP HANA, express edition to access the download manager.
-author_name: John Currie
-author_profile: https://github.com/JCurrie27
 primary_tag: products>sap-hana\,-express-edition
 tags: [ tutorial>beginner, products>sap-hana\,-express-edition ]
 time: 2
