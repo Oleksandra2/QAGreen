@@ -5,8 +5,6 @@ auto_validation: true
 primary_tag: software-product>mobile-development-kit-client
 tags: [ tutorial>intermediate, operating-system>ios, operating-system>android, topic>mobile, software-product>sap-business-technology-platform, software-product>mobile-development-kit-client, software-product>sap-mobile-services, software-product>sap-business-application-studio ]
 time: 20
-author_name: Jitendra Kansal
-author_profile: https://github.com/jitendrakansal
 ---
 
 ## Details
