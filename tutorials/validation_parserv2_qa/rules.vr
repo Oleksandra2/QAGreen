@@ -41,6 +41,6 @@ single-choice2
 ###Question
 True or False Pipes are required on the outside of table content?
 ###Match
-[x] True
-[ ] False
+[ ] True
+[x] False
 [VALIDATE_5]
