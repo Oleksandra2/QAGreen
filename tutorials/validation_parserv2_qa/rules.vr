@@ -44,3 +44,13 @@ True or False Pipes are required on the outside of table content?
 [ ] True
 [x] False
 [VALIDATE_5]
+
+[VALIDATE_6]
+###Rule
+single-choice
+###Question
+The text of question for single-choice test 3
+###Match
+[x] Answer 1
+[ ] Answer 2
+[VALIDATE_6]
