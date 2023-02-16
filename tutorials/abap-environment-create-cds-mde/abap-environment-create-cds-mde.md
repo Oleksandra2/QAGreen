@@ -4,7 +4,7 @@ description: Create a CDS View, display it in Fiori Elements preview, and enhanc
 auto_validation: true
 time: 45
 tags: [ tutorial>beginner, topic>abap-development, software-product>business-rules,  tutorial>community, software-product>sap-signature-management-by-docusign--add-on-for-standards-based-signature-compliance]
-primary_tag: software-product>sap-hana-cloudd
+primary_tag: software-product>sap-hana-cloud
 keywords: developers, oupppp
 ---
 
