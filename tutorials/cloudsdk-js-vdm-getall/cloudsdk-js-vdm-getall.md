@@ -4,7 +4,7 @@ description: Build OData queries with the SAP Cloud SDK's virtual data model to 
 auto_validation: true
 creator_name: Test Test T.
 time: 30
-tags: [ tutorial>intermediate, topic>javascript, products>sap-business-technology-platform, topic>odata]
+tags: [ tutorial>intermediate, topic>javascript, products>sap-business-technology-platform, topic>odat]
 primary_tag: products>open-Connectors
 ---
 
