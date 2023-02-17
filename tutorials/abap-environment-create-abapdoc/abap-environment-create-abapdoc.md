@@ -4,7 +4,7 @@ description: Learn how to maintain ABAPDoc documentation for your class in SAP B
 auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>sap-btp--abap-environment, software-product>sap-business-technology-platform ]
-primary_tag: programming-tool>abap-development
+primary_tag: programming-tool>abap-developmen
 ---
 
 ## Prerequisites
