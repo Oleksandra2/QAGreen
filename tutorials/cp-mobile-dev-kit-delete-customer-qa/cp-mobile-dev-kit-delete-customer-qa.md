@@ -2,7 +2,7 @@
 title: Delete a Customer Record in an MDK App QA Green
 description: Allow the user to delete a customer record in an MDK app.
 auto_validation: true
-primary_tag: software-product>mobile-development-kit-clien
+primary_tag: software-product>mobile-development-kit-client
 tags: [ tutorial>intermediate, operating-system>ios, operating-system>android, topic>mobile, software-product>sap-business-technology-platform, software-product>mobile-development-kit-client, software-product>sap-mobile-services, software-product>sap-business-application-studio ]
 time: 20
 ---
