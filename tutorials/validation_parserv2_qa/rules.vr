@@ -37,10 +37,10 @@ The text of question for multi-choice
 
 [VALIDATE_5]
 ###Rule
-single-choice2
+single-choice
 ###Question
 True or False Pipes are required on the outside of table content?
 ###Match
-[x] True
-[ ] False
+[ ] True
+[x] False
 [VALIDATE_5]
