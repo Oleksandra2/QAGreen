@@ -1,165 +1,289 @@
 ---
-title: Install the SAP HANA Client QA Green added new Tutorial to repo
-description: Learn about the multiple ways to install the SAP HANA client.
+parser: v2
 auto_validation: true
-time: 10
-tags: [ tutorial>beginner, software-product-function>sap-hana-cloud\,-sap-hana-database, products>sap-hana, products>sap-hana\,-express-edition]
-primary_tag: products>analytic-applications
+primary_tag: topic>abap-extensibility
+tags: [  tutorial>beginner, topic>abap-extensibility, topic>cloud, products>sap-s-4hana ]
+time: 20
 ---
 
-## Prerequisites
- - A Microsoft Windows, Mac, or Linux machine
+# Implement Logic for a Custom Business Object
+<!-- description --> Control your custom business object application with ABAP logic
 
-## Details
-### You will learn
-  - How to install the SAP HANA client
-  - The two locations where SAP HANA client installs can be downloaded from
+## Prerequisites  
+- **Authorizations:** Your user needs a business role with business catalog **Extensibility – Custom Business Objects** (ID: `SAP_CORE_BC_EXT_CBO`) and **Extensibility - Custom Logic** (ID: `SAP_CORE_BC_EXT_BLE`) in your **S/4HANA Cloud** system
 
-This tutorial will demonstrate how to install the SAP HANA client.  The next tutorial in this mission will demonstrate how to use HDBSQL, which is a command line utility included with the client's installation, to connect to SAP HANA.  The tutorials  cover Microsoft Windows, Linux and Mac.  If there are commands that are different depending on the platform, multiple sets of commands will be provided and the title will say Shell (Microsoft Windows) or Shell (Linux or Mac).  Note that on Microsoft Windows, the shell used is the Command Prompt.
+
+## You will learn  
+- How to enable logic implementation for a custom business object
+- How to implement changing custom business object database
+- How to implement checking a custom business object before save
+- How to implement saving or reject saving of a custom business object
+- How to implement informing the end user about save
+- How to ease development and test already while doing it
+
+## Intro
+At the end your application will set some data automatically and reject a save with an error message for the causing inconsistencies.
+
+**Our Example**
+
+A several tutorials spanning example will show extensibility along custom Bonus Management applications.
+
+In the first parts a Manager wants to define business objects **Bonus Plan** for employees. A Bonus Plan is there to save employee specific rules for bonus entitlement.
+## Additional Information
+- **SAP S/4HANA Cloud Release** (tutorial's last update): 1808
 
 ---
+### Make key field Read-Only
 
-[ACCORDION-BEGIN [Step 1: ](The SAP HANA Client)]
+As there was no backend implementation to set the mandatory key field **`ID`** so far, we were forced to set it from the UI to be able to save instances. Now, as we will implement the logic to set the ID in backend and nowhere else, we will set that key field to Read-Only for the UI.
 
-The SAP HANA client provides a set of utilities and drivers to connect to and query a SAP HANA database from multiple programming APIs, such as Node.js, Python or Java as shown below.  
+1. Open the business object **Bonus Plan** in Custom Business Objects application
 
-![drivers](drivers.png)  
+2. Start Edit Mode by executing the **Edit Draft** action.
 
-For a complete list, see [SAP HANA Client Interface Programming Reference](https://help.sap.com/viewer/f1b440ded6144a54ada97ff95dac7adf/latest/en-US).  
+3. Switch to **Fields** section.
 
-For a list of newly added features, see [New and Changed Features in the SAP HANA Client](https://help.sap.com/viewer/79ae9d3916b84356a89744c65793b924/latest/en-US) or the [release notes](https://launchpad.support.sap.com/#/notes/2941449).
+4. **Check** the Read-Only box for key field **`ID`**.
 
-The SAP HANA client can be used to connect to different versions of SAP HANA.  For example, a `2.10.x` client can connect to SAP HANA Cloud, SAP HANA Service, SAP HANA 2.0 or an SAP HANA 1.0 SPS 09 or higher server.  For more information, see [SAP HANA client and server cross-version compatibility](https://launchpad.support.sap.com/#/notes/0001906576).
+    ![Check Read-Only box](CBO_checkReadOnly.png)
 
-[DONE]
-[ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 2: ](Install from SAP Development Tools)]
+### Enable logic implementation
 
-1. Download the client installer for your platform (Microsoft Windows, Linux, or Mac) from the [SAP Development Tools](https://tools.hana.ondemand.com/#hanatools) website under the HANA tab and the SAP HANA Client 2.0 section.
->An alternate location to download the client installer (SAP Software Downloads) is described in step 3 which includes the SAP Common Crypto library and additional platforms such as Windows 32-bit and AIX.  
 
-    ![Client Download](Client-install.png)
+1. Switch to **General Information** section.
 
-2. On Microsoft Windows, unzip the downloaded file in a temporary location.
+2. **Check** the box for **Determination and Validation**
 
-    On Linux or a Mac, use the following:
+    ![Check Determination and Validation box](CBO_checkDeterminationAndValidation.png)
 
-    ```Shell (Linux or Mac)
-    tar -zxvf hanaclient*.tar.gz
-    ```  
+3. **Publish** the business object.
 
-3. Start the graphical installer `hdbsetup` or use the command line installer `hdbinst`.  
+Now you are enabled to implement **Determination** logic which is called **after each modification** to a Bonus Plan instance from the UI, as well as **Validation** logic which is called **before each save** of an instance.
+Only in Determination logic you are able to change custom business object data.
+Validation logic is intended to check the business object, decide whether a save can be performed and provide the end user a message with helpful information like successful save or the reason for which a save had to be rejected.  
 
-    ```Shell (Microsoft Windows)
-    hdbsetup.exe
+
+### Start logic implementation
+
+For **published** Custom Business Objects **without a Draft version** you can implement logic.
+
+1. Switch to **Logic** section.
+    ![Switch to Logic section](CBO_LogicSection.png)
+2. Enter the After Modification Event Logic which is a Determination Logic.
+    ![Enter After Modification logic](CBO_go2AfterModify.png)
+3. In the logic view you initially see the not editable empty published version.
+Click the **Create Draft** action.
+    ![Create Draft of logic implementation](CBO_AfterModifyCreateDraft.png)
+
+An editable copy of the published version appears left to it. With the **Draft Version** and **Published Version** actions you can decide what coding to see.
+
+![View Draft and/or Published Version of logic](CBO_AfterModifyDraftOrPublishedVersion.png)
+
+
+### Implement After Modification: fix values
+
+Implement After Modification event with following fix value functionality:
+
+- Set the key field `ID` if still initial.
+
+    >**Hint:** Changing Parameter `bonusplan` enables you to read current node data and change it.
+    >
+    **Hint:** You can read existing Bonus Plan data via the CDS View that is named as the Business Object's Identifier (here: `YY1_BONUSPLAN`).
+    >
+    **Hint:** With the key combination **CTRL + Space** you can access the very helpful code completion.
+
+    ![Code Completion](CBO_logicCodeCompletion.png)
+
+    <br><br>
+
+    ```ABAP
+    * set ID
+    IF bonusplan-id IS INITIAL.
+       SELECT MAX( id ) FROM yy1_bonusplan INTO @DATA(current_max_id).
+       bonusplan-id = current_max_id + 1.
+    ENDIF.
     ```
 
-    ```Shell (Linux or Mac)
-    ./hdbsetup
-    ```  
+- Set the Unit of Measure for the Bonus Percentages to `P1` which is the code for % (percent)
 
-    Set the install directory to `C:\sap\hdbclient` on Microsoft Windows or to `users/your_user/sap/hdbclient` on Linux or macOS and complete the installation.  
-
-    ![Client-install](client-installer.png)
-
-    > If an older version is already installed, it can be upgraded or it can be uninstalled by running `hdbuninst` from the folder where the client is installed.  For example `c:\sap\hdbclient\install\hdbuninst`
-
-4. After the installation process is completed, update your path environment variable so that the SAP HANA client programs such as `hdbsql` can be found on your path.  On Microsoft Windows, click the **Start** icon and search for environment variables.
-
-    ![Environment variable](env-variable.png)
-
-
-    >For details on how to configure your path on a Mac see [this](https://blogs.sap.com/2020/04/03/quick-tip-how-to-add-hdbsql-to-a-path-on-macos/) blog post.
-
-    >To configure your path on Linux:
-
-    >Open an editor to edit the file `.bash_profile`, `.profile`, or `.zshrc` (macOS with zsh).
-
-    >```Shell (Linux or Mac)
-    pico ~/.bash_profile
-    >```
-    Replace `pico` with your preferred text editor.
-
-    >Add the following line to it after changing it to match the location of where the SAP HANA client was installed.
-
-    >```Shell (Linux or Mac)
-    export PATH=$PATH:/home/dan/sap/hdbclient
-    >```
-
-    >Run the source command to immediately apply all the changes made to the `.bash_profile` file
-
-    >```Shell (Linux or Mac)
-    source ~/.bash_profile
-    >```
-
-5. In the `hdbclient` folder, notice that files such as `hdbsql` and the client database drivers are available.  
-
-    ![Clients Post Installation](Clients-post-installation.png)
-
-
-6. Run the following command in a newly opened shell to verify the installation succeeded and the path is correct.
-
-    ```Shell
-    hdbsql -v
+    ```ABAP
+    * set percentage unit
+    bonusplan-lowbonuspercentage_u = bonusplan-highbonuspercentage_u = 'P1'.
     ```
 
-    ![Version of HDBSQL](command-Prompt.png)
+- Determine and set the Employee Name from the Employee ID
+    >**Hint:** Extensibility offers Helper class `CL_ABAP_CONTEXT_INFO` with method `GET_USER_FORMATTED_NAME` that needs a user ID to return its formatted name
 
-
-The install from  SAP Development Tools does not contain the SAP Cryptographic Library.  This can be seen by examining the `C:\SAP\hdbclient\manifest.mf` file.  
-
-The SAP Cryptographic Library is only required when client-side data encryption is used, for LDAP Authentication or for cases where a preference is to use the SAP Common Crypto Library over the libraries provided by the OS.  For more information, see the following:  
-
-  - [Client-Side Data Encryption in the Security Guide](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/latest/en-US/d7dc0b57c68d442ebc2af3815d9ea11e.html)  
-
-  - [Client-Side Data Encryption Guide](https://help.sap.com/viewer/a7bd9a05faca4d6f8d26b1848a00a578/latest/en-US/101498bb299745b586007fcac404a966.html)  
-
-  - [Download and Install SAP Common Crypto Library in the SAP HANA Client Installation and Update Guide](https://help.sap.com/viewer/8e208b44c0784f028b948958ef1d05e7/latest/en-US/463d3ceeb7404eca8762dfe74e9cff62.html)  
-
-  - [Connect to SAP HANA with a Secure Connection from Python](hana-python-secure-connection)
-
-[DONE]
-[ACCORDION-END]
-
-
-[ACCORDION-BEGIN [Step 3: ](Alternate Install Option, SAP Software Downloads)]
-
-Another download location is the [Software Downloads](https://support.sap.com/en/my-support/software-downloads.html), which requires signing in before downloading.  Software Downloads provides additional platforms such as 32-bit Windows and AIX.  Versions of the SAP HANA client downloaded from here include the SAP Common Crypto Library.
-
-> For additional details on supported platforms, see SAP Note [3006307 - SAP HANA Client Supported Platforms for 2.7 and higher ](https://launchpad.support.sap.com/#/notes/3006307) and SAP Note [2938939 - SAP HANA Client Legacy Platforms](https://launchpad.support.sap.com/#/notes/2938939).
-
-1. Download the software.  
-
-    If you have a license for SAP HANA Cloud, follow the instructions at [Download and Install the SAP HANA Client](https://help.sap.com/viewer/db19c7071e5f4101837e23f06e576495/cloud/en-US/16155c86453943a5b62236535ecc7429.html).   
-
-    If you have a license for an on-premise version of SAP HANA, follow the instructions provided at  [Install the SAP HANA Client on Microsoft Windows](https://help.sap.com/viewer/8e208b44c0784f028b948958ef1d05e7/latest/en-US/c5d4a5c3bb57101486b683177bee7725.html).   
-
-    The downloaded software is the same regardless of which one is used.
-
-    ![Software Downloads](softwareDownload.png)
-
-2. Extract the software using SAPCAR.
-
-    The downloaded file is a `.sar` file and the utility SAPCAR is needed to extract it.  SAPCAR can also be downloaded from Software Downloads.
-
-    The command to extract a `.sar` file is shown below.  The command options are extract, verbose and file.
-
-    ```Shell (Microsoft Windows Command Prompt)
-    SAPCAR_1010-70006231.EXE -xvf IMDB_CLIENT20_010_9-80002083.SAR
+    ```ABAP
+    * set Employee Name
+    IF bonusplan-employeeid IS NOT INITIAL.
+       bonusplan-employeename = cl_abap_context_info=>get_user_formatted_name( bonusplan-employeeid ).
+    ENDIF.
     ```
 
-    ```Shell (Linux or Mac)
-    chmod u+x SAPCAR
-    ./SAPCAR_1010-70006178.EXE -xvf IMDB_CLIENT20_010_9-80002082.SAR
-    ```
 
-    >For further information on SAPCAR or if you are having troubles using it, see [SAP HANA, SAPCAR, and macOS](https://blogs.sap.com/2020/03/18/sap-hana-sapcar-and-macos/).  
+### Implement After Modification: consistency check
 
-Congratulations! You now have the SAP HANA client installed.
+In dependence on following checks, set the `isconsistent` property.
 
-[VALIDATE_1]
-[ACCORDION-END]
+- Check that `ValidityStartDate` and `ValidityEndDate` are set and that `ValidityStartDate` is earlier in time than `ValidityEndDate`.
+- Check that Factors and Percentages are set correctly (all > 0, Percentages < 100, `LowBonusAssignmentFactor` < `HighBonusAssignmentFactor`)
+- Check that Employee ID is set
 
+```ABAP
+* consistency check START
+IF bonusplan-validitystartdate IS INITIAL
+ OR bonusplan-validityenddate IS INITIAL
+ OR bonusplan-validitystartdate GE bonusplan-validityenddate
+ OR bonusplan-lowbonusassignmentfactor IS INITIAL
+ OR bonusplan-highbonusassignmentfactor IS INITIAL
+ OR bonusplan-lowbonuspercentage_v IS INITIAL
+ OR bonusplan-highbonuspercentage_v IS INITIAL
+ OR bonusplan-lowbonuspercentage_v GE 100
+ OR bonusplan-highbonuspercentage_v GE 100
+ OR bonusplan-lowbonusassignmentfactor GE bonusplan-highbonusassignmentfactor
+ OR bonusplan-employeeid IS INITIAL.
+    bonusplan-isconsistent = abap_false.
+ELSE.
+    bonusplan-isconsistent = abap_true.
+ENDIF.
+* consistency check END
+```
+
+
+### Test the logic during development
+
+
+On top of the coding you can maintain runtime data for the current node structure which represents the data before running the test functionality. This data can also be saved as variant for later usages.
+
+1. Click the value help to add test data
+
+    ![Add Test Data](CBO_logicDevAddTestData.png)
+
+2. Enter following data
+
+    | Field	Name | Field Value |
+    |------------|-------------|
+    | `validitystartdate` | `2017-01-01` |
+    | `validityenddate` | `2017-12-31` |
+    | `targetamount_v` | `1000` |
+    | `targetamount_c` | `EUR` |
+    | `lowbonusassignmentfactor` | `1` |
+    | `highbonusassignmentfactor` | `3` |
+    | `lowbonuspercentage_v` | `10` |
+    | `highbonuspercentage_v` | `20` |
+    | `employeeid` | `<any>` |
+
+    `employeeid` `<any>` shall be the one of a sales person that created sales orders with a Net Amount of more than 3000.00 EUR in 2016 and that are completed.
+
+    This will look as follows.
+
+    ![Maintain Test Data](CBO_logicDevMaintainTestData.png)
+
+3. Execute the **Test** action and you can see the node data after your logic was executed.
+
+    ![Execute Test](CBO_logicTest.png)
+
+    You can see that your logic works as `id`, `*percentage_u` fields and `employename` are filled and `isconsistent` is 'X'.
+
+4. **Publish** the After Modification Logic.
+
+
+### Implement Before Save
+
+1. Being in After Modification logic you can get to Before Save Logic this way:
+
+    - Go Back in application
+    - In Tab "Logic", go to section "Determination and Validation"
+
+2. **Implement** Before Save event with following functionality
+
+    - If the bonus plan is consistent, it can be continued to save, if not save shall be rejected. In case of save no further processing is needed and logic can be left.
+        >**Hint:** Exporting parameter valid must be set to true for save and to false for save rejection
+
+        ```ABAP
+        * decide about save rejection
+        IF bonusplan-isconsistent EQ abap_true.
+            valid = abap_true.
+            RETURN.
+        ELSE.
+            valid = abap_false.
+        ENDIF.
+        ```
+
+    - If the bonus plan is not consistent, write the first found error into the message and end the logic processing.
+    These are the possible errors in detail:
+        - `ValidityStartDate` and `ValidityEndDate` must be set
+        - `ValidityStartDate` must be earlier in time than `ValidityEndDate`
+        - Factors and Percentages must be > 0
+        - Percentages must be < 100
+        - LowBonusAssignmentFactor must be < HighBonusAssignmentFactor
+        - Employee ID must be set
+
+        ```ABAP
+        * consistency error message START
+        IF bonusplan-validitystartdate IS INITIAL OR bonusplan-validityenddate IS INITIAL.
+            message = 'Validity Period must not be empty.'.
+            RETURN.
+        ELSEIF bonusplan-validitystartdate GE bonusplan-validityenddate.
+            CONCATENATE 'Validity End Date' bonusplan-validityenddate 'must be later than Validity Start Date' bonusplan-validitystartdate '!' INTO message SEPARATED BY space.
+            RETURN.
+        ENDIF.
+
+        IF bonusplan-targetamount_v IS INITIAL.
+            message = 'Target Amount must be over 0!'.
+            RETURN.
+        ENDIF.
+
+        IF bonusplan-targetamount_c IS INITIAL.
+            message = 'Target Amount Currency must be set!'.
+            RETURN.
+        ENDIF.
+
+        IF bonusplan-lowbonusassignmentfactor IS INITIAL
+         OR bonusplan-highbonusassignmentfactor IS INITIAL.
+            message = 'Assignment Factors must be over 0!'.
+            RETURN.
+        ENDIF.
+
+        IF bonusplan-lowbonuspercentage_v IS INITIAL
+         OR bonusplan-highbonuspercentage_v IS INITIAL.
+            message = 'Percentages must be over 0!'.
+            RETURN.
+        ENDIF.
+
+        IF bonusplan-lowbonuspercentage_v GE 100
+         OR bonusplan-highbonuspercentage_v GE 100.
+            message = 'Percentage must be below 100!'.
+            RETURN.
+        ENDIF.
+
+        IF bonusplan-lowbonusassignmentfactor GE bonusplan-highbonusassignmentfactor.
+            message = 'Low Bonus Factor must be smaller than High Bonus Factor!'.
+            RETURN.
+        ENDIF.
+
+        IF bonusplan-employeeid IS INITIAL.
+            message = 'Employee ID must be set!'.
+            RETURN.
+        ENDIF.
+        * consistency error message  END
+        ```
+
+3. **Publish** the Before Save Logic
+
+
+### Test via the UI
+
+Once ensured that both logic implementations were successfully published you can start testing the Application like an end user via the UI.
+
+1. **Open** the Bonus Plan application
+2. **Open** the Bonus Plan with ID `1`
+3. **Edit** this Bonus Plan
+4. **Enter** value `10` into field **Low Bonus Percentage**
+5. **Save** the Bonus plan. You can see that your business logic works as the Percentage Units and the Employee Name get filled, but save fails due to the validation error messages for missing percentages.
+6. **Enter** value `20` into field **High Bonus Percentage**
+7. **Save** the Bonus Plan. Now it will not be rejected.
 
 ---
