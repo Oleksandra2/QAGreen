@@ -2,7 +2,7 @@
 parser: v2
 auto_validation: true
 primary_tag: topic>abap-extensibility
-tags: [  tutorial>beginner, tutorial>license, topic>abap-extensibility, topic>cloud, products>sap-s-4hana ]
+tags: [  tutorial>beginner, tutorial>license, topic>abap-extensibility, topic>cloud, products>sap-s-4hana, test-namespace>tag2 ]
 time: 20
 ---
 
