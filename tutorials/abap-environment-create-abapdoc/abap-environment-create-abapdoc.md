@@ -3,7 +3,7 @@ title: Create ABAPDoc Comments in Your Class in ABAP Environment QA Green change
 description: Learn how to maintain ABAPDoc documentation for your class in SAP Business Technology Platform (BTP), ABAP Environment so your comments appear in the Outline view.
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-btp--abap-environment, software-product>sap-business-technology-platform ]
+tags: [ tutorial>beginner, software-product>sap-btp--abap-environment, software-product>sap-business-technology-platform, product-category>artificial-intelligence ]
 primary_tag: programming-tool>abap-development
 ---
 
