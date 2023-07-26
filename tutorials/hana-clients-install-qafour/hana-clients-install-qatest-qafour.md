@@ -156,7 +156,7 @@ Another download location is the [Software Downloads](https://support.sap.com/en
     >For further information on SAPCAR or if you are having troubles using it, see [SAP HANA, SAPCAR, and macOS](https://blogs.sap.com/2020/03/18/sap-hana-sapcar-and-macos/).  
 
 Congratulations! You now have the SAP HANA client installed.
-
+[ACCORDION-END] 
 
 
 ---
