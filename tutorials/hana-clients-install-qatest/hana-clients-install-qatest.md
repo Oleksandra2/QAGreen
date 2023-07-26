@@ -291,8 +291,4 @@ Once ensured that both logic implementations were successfully published you can
 7. **Save** the Bonus Plan. Now it will not be rejected.
 
 
-### Test yourself
-
-
-
 ---
