@@ -157,7 +157,6 @@ Another download location is the [Software Downloads](https://support.sap.com/en
 
 Congratulations! You now have the SAP HANA client installed.
 
-[ACCORDION-END]
 
 
 ---
