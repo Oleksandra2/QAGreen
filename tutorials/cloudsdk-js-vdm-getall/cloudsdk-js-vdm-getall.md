@@ -20,12 +20,13 @@ author_profile: https://github.com/dhrubpaul
 
 ## Intro
 In this tutorial we would be Creating a movie recommendation Template and deploying the same using AI core.
+
 ---
 
 
 ### Genrating template for Movie Recommendation
 
-step 1:**  press Command + shift + p for *mac* and Control + shift + p for *Windows* to open control center and choose open template wizard.
+**step 1:**  press Command + shift + p for *mac* and Control + shift + p for *Windows* to open control center and choose open template wizard.
 
 ![](img/tempelate_gen1.png)
 
