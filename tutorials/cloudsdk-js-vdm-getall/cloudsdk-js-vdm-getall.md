@@ -32,7 +32,7 @@ The goal of this tutorial group is to show you how to implement a JavaScript app
 
 [ACCORDION-BEGIN [Step 1: ](Add an API endpoint)]
 
-A `NestJS` application is based on three main entities: `Service`, `Controller` and `Module`.
+A `NestJS` application is based on three main entities: `Service`, `Controller` and `Module`. test ch
 
 In the scaffold a set of these entities has already been created: `app.service.ts`, `app.controller.ts` and `app.module.ts`. We will create a new set in order to query business partners from a S/4HANA Cloud system. For details on the concepts have a look at the [Nest tutorials](https://docs.nestjs.com/first-steps). Start with a `business-partner.service.ts` file, which will contain the implementation of the query:
 
