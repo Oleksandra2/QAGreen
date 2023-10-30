@@ -178,7 +178,7 @@ Node.js packages are available using [NPM](https://www.npmjs.com/), which is the
 
 2. Add the code below to `nodeQuery.js`.  Note that the values for host, port, user name and password are provided by the previously configured `hdbuserstore` key USER1UserKey.  
 
-    ```JavaScript
+    ```JavaScript [2-10,19-23]
     'use strict';
     const { PerformanceObserver, performance } = require('perf_hooks');
     var util = require('util');
