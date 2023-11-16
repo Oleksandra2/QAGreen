@@ -1,5 +1,5 @@
 ---
-title: Parallel Processing and Parameters QA-Green
+title: Parallel Processing and Parameters QA-Green updated
 description: Leverage SQLScript in stored procedures, user defined functions, and user defined libraries.
 primary_tag: topic>Internet-of-Things
 tags: [ tutorial>intermediate, topic>javascript, products>sap-business-technology-platform] 
