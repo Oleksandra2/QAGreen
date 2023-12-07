@@ -43,6 +43,8 @@ Throughout this tutorial, object names may include a suffix or group number, suc
 
     !![step1a-create-package](step1a-create-package.png)
 
+[Link](http://localhost/test.html)
+
 [DONE]
 [ACCORDION-END]
 
