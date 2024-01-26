@@ -6,6 +6,7 @@ time: 45
 tags: [ tutorial>beginner, topic>abap-development, software-product>business-rules,  tutorial>community, software-product>sap-signature-management-by-docusign--add-on-for-standards-based-signature-compliance]
 primary_tag: software-product>sap-hana-cloud
 keywords: developers, oupppp
+contributors: [ Dmytro Ivanov > https://github.com/IvanovDmytroA, User Name > https://github.com/Deu4 ]
 ---
 
 ## Prerequisites
